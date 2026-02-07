@@ -1,5 +1,5 @@
 # ℹ️ Architectural Drivers - Drivers Arquitetônicos
-- [Architectural Drivers (EN)](#architectural-drivers-en)
+- [Architectural Drivers (EN)](#architectural-drivers-en-1)
     ---
     - [Introduction](#introduction)
     - [Group of Drivers](#group-of-drivers)
@@ -9,7 +9,7 @@
         - [Regulatory and Instituional Drivers](#regulatory-and-instituional-drivers)
     - [Summary of Architectural Drivers](#summary-of-architectural-drivers)
 
-- [Drivers Arquitetônicos (PT-BR)](#drivers-arquitetônicos-pt-br)
+- [Drivers Arquitetônicos (PT-BR)](#drivers-arquitetônicos-pt-br-1)
     ---
     - [Introdução](#introdução)
     - [Grupo de Drivers](#grupos-de-drivers)
