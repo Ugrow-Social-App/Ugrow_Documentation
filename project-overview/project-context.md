@@ -11,7 +11,8 @@
         - [Academic](#academic)
     - [Target Audience](#target-audience-1)
         ---
-    - [Conclusion](#conclusion)
+    - [Conclusion](#conclusion-1)
+        ---
 
 - [Visão Geral do Projeto (PT-BR)](#visão-geral-do-projeto-pt-br)
     ---
