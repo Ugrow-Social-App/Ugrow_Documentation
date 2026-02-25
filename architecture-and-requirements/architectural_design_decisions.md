@@ -1,7 +1,38 @@
 # 📋 Architectural Design Decisions - Decisões de Design Arquitetural
 
 - [Architectural Design Decisions (EN)]()
+    ---
+    - []()
+        ---
+    - []()
+        ---
+        - []()
+        - []()
+        - []()
+        - []()
+        - []()
+        - []()
+        - []()
+        - []()
+    - []()
+        ---
+
 - [Decisões de Design Arquitetural (PT-BR)]()
+    ---
+    - [Introdução](#introdução-1)
+        ---
+    - [Descrevendo a Estrutura do Documento](#descrevendo-a-estrutura-do-documento-1)
+        ---
+        - [Título](#título)
+        - [Status](#status)
+        - [Contexto](#contexto)
+        - [Decisão](#decisão)
+        - [Consequências](#consequências)
+        - [Conformidade](#conformidade)
+        - [Alternativas](#alternativas)
+        - [Notas](#notas)
+    - [Registro de ADRs](#registro-de-adrs-1)
+        ---
 
 ## Decisões de Design Arquitetural
 
@@ -48,5 +79,4 @@ Os ADRs documentados serão listados neste documento para facilitar o acesso e v
 
 | Título | Status | Autor Original | Data do Registro | Modificado Por | Última Atualização |
 | --- | --- | --- | --- | --- | --- |
-
-Nenhum registro por enquanto.
+| 001 - Arquitetura Monolítica em Camadas | Aprovado | Guilherme Veiga Pedromilo | 25/02/2026 ás 12:20 | - |  25/02/2026 ás 12:20
