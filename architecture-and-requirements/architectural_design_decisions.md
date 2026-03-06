@@ -79,4 +79,5 @@ Os ADRs documentados serão listados neste documento para facilitar o acesso e v
 
 | Título | Status | Autor Original | Data do Registro | Modificado Por | Última Atualização |
 | --- | --- | --- | --- | --- | --- |
-| 001 - Arquitetura Monolítica em Camadas | Aprovado | Guilherme Veiga Pedromilo | 25/02/2026 ás 12:20 | - |  25/02/2026 ás 12:20
+| 001 - Arquitetura Monolítica em Camadas | Aceito | Guilherme Veiga Pedromilo | 25/02/2026 ás 12:20 | - |  28/02/2026 ás 14:13
+| 002 - Paradigma Orientado a Objeto | Aceito | Guilherme Veiga Pedromilo | 28/02/2026 ás 14:13 | - |  28/02/2026 ás 14:13

@@ -23,14 +23,27 @@
     - [Notas](#notas)
 
 ## Arquitetura Monolítica com Camadas
-### Status: Aprovado
+### Status: Aceito
 
 ### Contexto
-Não se sabe qual o nível de carência dos usuários em relação a ferramentas tecnológicas, ou seja, não se sabe qual o nível de acesso/modernidade a computadores e internet, implicando seriamente no ambiente de execução da aplicação. As alternativas para solucionar este problema são: construir uma aplicação *desktop* monolítica, trabalhar com micro-serviços e web ou arquitetura distribuída.
+Não se sabe qual o nível de carência dos usuários em relação a ferramentas tecnológicas, ou seja, não se sabe qual o nível de acesso/modernidade a computadores e internet, implicando seriamente no ambiente de execução da aplicação. As alternativas para solucionar este problema são: construir uma aplicação *desktop* monolítica em camadas, trabalhar com micro-serviços e web ou arquitetura distribuída.
 
 ### Decisão
 
-Aplicação *desktop* monolítica, em Electron.js, estruturada em camadas técnicas.
+Aplicação *desktop* monolítica, em Electron.js, estruturada em camadas técnicas. A possível estrutura de camadas será:
+
+```
+Ugrow_App_Social        
+    /apresentação               <Presentation>
+    /aplicação                  <Application>
+    /domínio                    <Domain>
+    /infraestrutura             <Infraestructure>
+```
+
+- Apresentação: responsável pela GUI (Graphical User Interface - Interface Gráfica do Usuário). Abrigará os componentes, telas, rotas e interações (casos de uso).
+- Aplicação: responsável pelos casos de uso do sistema, orquestração de regras e coordeação entre domínio e infraestrutura.
+- Domínio: responsável pelas classes, regras de negócios, validações e conceitos centrais.
+- Infraestrutura: responsável pela persistência dos dados e APIs externas.
 
 ### Consequências
 
@@ -55,4 +68,4 @@ Autor Original: Guilherme Veiga Pedromilo.
 
 Data do Registro: 25/01/2026 ás 12:20.
 
-Última Atualização: 25/01/2026 ás 12:20.
+Última Atualização: 28/01/2026 ás 14:13.
