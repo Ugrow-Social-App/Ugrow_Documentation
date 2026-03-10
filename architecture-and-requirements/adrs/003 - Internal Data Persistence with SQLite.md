@@ -1,4 +1,4 @@
-# 003 — Internal Data Persistence with SQLite / Persistência de Dados Interna com SQLite
+# 003 - Internal Data Persistence with SQLite / Persistência de Dados Interna com SQLite
 
 - [Internal Data Persistence with SQLite (EN)]()
     ---
@@ -95,7 +95,7 @@ Será avaliado a perfomance das consultas através do número de linhas e coluna
 
 - O uso de arquivos .json para armazenamento de dados são interessantes, pois são flexíveis e ótimos para dados complexos. Entretanto, seu processamento é feito em memória e com práticas ruins de manipulação de dados pode ser fatal para a aplicação. Além disso, por ser muito flexível, depende principalmente da aplicação validar os dados e seus tipos.
 
-- O uso de arquivos .csv para armazenamento de dados também são interessantes, sua organização é tabular e seu processamento. Além disso, sua legibilidade e importação/exportação de dados é simples. Entretanto, não oferece validação de dados e seus tipos.
+- O uso de arquivos .csv para armazenamento de dados também são interessantes, sua organização é tabular e seu processamento é rápido. Além disso, sua legibilidade e importação/exportação de dados é simples. Entretanto, não oferece validação de dados e seus tipos.
 
 ### Notas
 

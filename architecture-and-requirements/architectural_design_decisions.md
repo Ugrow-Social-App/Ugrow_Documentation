@@ -82,3 +82,4 @@ Os ADRs documentados serão listados neste documento para facilitar o acesso e v
 | [001 - Arquitetura Monolítica em Camadas](./adrs/001%20-%20Monolithic%20Layered%20Architecture.md) | Aceito | Guilherme Veiga Pedromilo | 25/02/2026 ás 12:20 | Guilherme Veiga Pedromilo |  09/03/2026 ás 20:47
 | [002 - Paradigma Orientado a Objeto](./adrs/002%20-%20%20Object-Oriented%20Paradigm.md) | Aceito | Guilherme Veiga Pedromilo | 28/02/2026 ás 14:13 | Guilherme Veiga Pedromilo |  09/03/2026 ás 20:55
 | [003 - Persistência de Dados Interna com SQLite](./adrs/003%20-%20Internal%20Data%20Persistence%20with%20SQLite.md) | Aceito | Guilherme Veiga Pedromilo | 09/03/2026 ás 22:59 | - | 09/03/2026 ás 22:59
+| [004 - Persistência de Conteúdos Educacionais Externa com Firebase](./adrs/004%20-%20External%20Educational%20Content%20Persistence%20with%20Firebase.md) | Aceito | Guilherme Veiga Pedromilo | 10/03/2026 ás 11:15 | - | 10/03/2026 ás 11:15
