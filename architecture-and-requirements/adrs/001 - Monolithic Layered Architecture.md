@@ -2,10 +2,10 @@
 
 - [Monolithic Layered Architectural (EN)]()
     ---
-    - [Title](#title)
-    - [Status](#status)
+    - [Title](#monolithic-layered-architecture)
+    - [Status](#status-accepted)
     - [Context](#context)
-    - [Decision](#decisão)
+    - [Decision](#decision)
     - [Consequences](#consequences)
     - [Accordance](#accordance)
     - [Alternatives](#alternatives)
@@ -13,14 +13,66 @@
 
 - [Arquitetura Monolítica com Camadas]()
     ---
-    - [Título](#título)
-    - [Status](#status)
-    - [Contexto](#contexto)
+    - [Título](#arquitetura-monolítica-com-camadas-1)
+    - [Status](#status-aceito)
+    - [Contexto](#context)
     - [Decisão](#decisão)
     - [Consequências](#consequências)
     - [Conformidade](#conformidade)
     - [Alternativas](#alternativas)
     - [Notas](#notas)
+
+## Monolithic Layered Architecture
+
+### Status: Accepted
+
+### Context
+
+The level of users' need for technological tools is unknown; in other words, the level of access to or modernization of computers and the internet is uncertain. This significantly impacts the application's execution environment. Possible alternatives to address this issue include: building a layered monolithic desktop application, working with microservices and web technologies, or adopting a distributed architecture.
+
+### Decision
+
+A monolithic desktop application built with Electron.js, structured into technical layers. The possible layer structure will be:
+
+```
+Ugrow_App_Social        
+    /presentation              <Presentation>
+    /application               <Application>
+    /domain                    <Domain>
+    /infrastructure            <Infrastructure>
+```
+
+* **Presentation**: responsible for the GUI (Graphical User Interface). It will contain components, screens, routes, and user interactions (use cases).
+* **Application**: responsible for the system’s use cases, orchestration of rules, and coordination between the domain and infrastructure layers.
+* **Domain**: responsible for classes, business rules, validations, and core concepts.
+* **Infrastructure**: responsible for data persistence and external APIs.
+
+### Consequences
+
+* Easier deployment and implementation.
+* Does not depend on a network connection to execute the application and its base resources.
+* Simple architecture to read and interpret.
+* Depending on the OS (Operating System) version, there may be compatibility issues with Electron.js.
+* Poorly implemented functions may result in excessive CPU consumption.
+* Depends on the storage available on the user's device.
+
+### Accordance
+
+Compliance will be evaluated through empirical measurements using Electron profiling tools (such as Chrome DevTools), task managers, and execution time measurements for critical use cases.
+
+### Alternatives
+
+* The use of a web-based microservices architecture is interesting because, in addition to simplifying maintenance, it facilitates the implementation of new features and is accessible from virtually any device with a web browser. However, it is more expensive and primarily depends on an internet connection for use.
+
+### Notes
+
+Original Author: Guilherme Veiga Pedromilo.
+
+Registration Date: February 25, 2026 at 00:20 p.m.
+
+Modified by: Guilherme Veiga Pedromilo.
+
+Last Update: March 09, 2026 at 08:47 p.m.
 
 ## Arquitetura Monolítica com Camadas
 ### Status: Aceito
@@ -66,6 +118,8 @@ Será avaliado por meio de medições empíricas utilizando ferramentas de *prof
 
 Autor Original: Guilherme Veiga Pedromilo.
 
-Data do Registro: 25/01/2026 ás 12:20.
+Data do Registro: 25/02/2026 ás 12:20.
 
-Última Atualização: 28/01/2026 ás 14:13.
+Modificado por: Guilherme Veiga Pedromilo.
+
+Última Atualização: 09/03/2026 ás 20:47.
