@@ -2,7 +2,7 @@
 
 - [External Educational Content Persistence with Firebase (EN)]()
     ---
-    - [Title](#)
+    - [Title](#external-educational-content-persistence-with-firebase)
     - [Status](#status-accepted)
     - [Context](#context)
     - [Decision](#decision)
@@ -21,6 +21,47 @@
     - [Conformidade](#conformidade)
     - [Alternativas](#alternativas)
     - [Notas](#notas)
+
+## External Educational Content Persistence with Firebase
+
+### Status: Accepted
+
+### Context
+
+Educational content may include YouTube videos and live streams, as well as materials in .pdf format. These contents must be constantly updated and available to the application whenever it is connected to the internet. The alternatives are: using Firebase to store hyperlinks and redirections to the content, centralizing access to content from different sources in a single location; or using a cloud file server to store the content directly.
+
+### Decision
+
+Firebase will be used to store hyperlinks and redirections to the educational content, centralizing access to materials from different sources. The application will consume this data through an integration service, and there will be no operational concerns regarding the updating of this content, since it will be stored externally.
+
+### Consequences
+
+* Dependency on an external service.
+* Dependency on an internet connection to access the content.
+* Possible resource limitations depending on the selected plan.
+* High scalability for content management.
+* Possibility of dynamic updates to educational content.
+* Simple integration through APIs provided by Firebase.
+* Reduced need to update the application when modifying content.
+
+### Accordance
+
+Through *Cloud Monitoring*, a tool provided by Firebase, it will be possible to monitor storage consumption, performance, and error rates. The system will be considered compliant if it does not reach the limits of the resources offered by the **Spark** billing plan of Firebase and if the error rate remains between 0% and 1%.
+
+### Alternatives
+
+* Cloud storage services provided by infrastructure providers (such as AWS) could be used to store the content. These services offer high reliability and advanced management features. However, they may present higher costs and greater configuration complexity for the context of the Ugrow Social App.
+
+### Notes
+
+Original Author: Guilherme Veiga Pedromilo.
+
+Registration Date: March 10, 2026 at 11:15.
+
+Modified by: No modifications.
+
+Last Update: March 10, 2026 at 11:15.
+
 
 ## Persistência de Conteúdos Educacionais Externa com Firebase 
 ### Status: Aceito
