@@ -1,0 +1,21 @@
+{
+  "name": "ugrow_documentation",
+  "version": "1.0.0",
+  "description": "- Ugrow's Documentation (EN)\r - Documentação do Ugrow (PT-BR)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ugrow-Social-App/Ugrow_Documentation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ugrow-Social-App/Ugrow_Documentation/issues"
+  },
+  "homepage": "https://github.com/Ugrow-Social-App/Ugrow_Documentation#readme"
+}
