@@ -1,7 +1,7 @@
 {
   "name": "ugrow_documentation",
   "version": "1.0.0",
-  "description": "- Ugrow's Documentation (EN)\r - Documentação do Ugrow (PT-BR)",
+  "description": "Ugrow's Documentation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,8 +11,8 @@
     "url": "git+https://github.com/Ugrow-Social-App/Ugrow_Documentation.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Guilherme Veiga Pedromilo",
+  "license": "CC-BY-4.0",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Ugrow-Social-App/Ugrow_Documentation/issues"
