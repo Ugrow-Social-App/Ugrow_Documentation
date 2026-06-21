@@ -1,0 +1,23 @@
+:root {
+    --red-color: #bd224d;
+    --blue-color: #0d7eb4;
+    --green-color: #7ab78e;
+    --orange-color: #e97f05;
+    --dark-color: #333;
+    --light-color: #ffffff;
+    --light-colors-opacity: rgba(255, 255, 255, 0.623);
+    --interactive-elements-color: #f1f1f1;
+    --bg-color: var(--light-color);
+    --text-color: var(--dark-color);
+}
+
+body.dark {
+    --bg-color: var(--dark-color);
+    --text-color: var(--light-color);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
