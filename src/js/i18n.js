@@ -44,4 +44,6 @@ const setLanguage = async (language) => {
     }
 }
 
+// Available Globally
+window.getLanguage = getLanguage();
 getLanguage();
