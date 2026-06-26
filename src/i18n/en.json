@@ -8,6 +8,21 @@
     "header.language-select.en": "English (USA)",
     "header.language-select.pt-br": "Portuguese (Brazil)",
 
+    "navbar_title": "Other Informations",
+    "navbar_tabs.app": "App",
+    "navbar_tabs.app.download": "Downloads",
+    "navbar_tabs.documents": "Documentation",
+    "navbar_tabs.documents.manual": "Manual",
+    "navbar_tabs.documents.github": "GitHub",
+    "navbar_tabs.documents.academic": "Academic",
+    "navbar_tabs.help": "Help",
+    "navbar_tabs.help.contact": "Contact",
+    "navbar_tabs.help.questions": "Frequently Asked Questions",
+    "navbar_tabs.about": "About",
+    "navbar_tabs.about.app": "Project",
+    "navbar_figure_caption": "© Ugrow, 2026",
+
+
     "hero.title": "Welcome to Ugrow",
     "hero.subtitle": "Applying innovative solution to help and manage your personal finances",
     "hero.link.get_started": "Get Started",
@@ -34,6 +49,9 @@
     "contact.form.message_label": "Why are you opening this request?",
     "contact.form.btn": "Submit the request",
 
+    "footer_special_info.logo_description": "Institutions Involved",
+    "footer_special_info.message": "I thank God and my parents for everthing and, teachers, friends and institutions for support during this project. 'Therefore encourage one another and build each other up, just as in fact you are doing' - 1 Thessalonians 5:11.",
+    "footer_special_info.message_description": "Dedication by Guilherme Veiga Pedromilo",
     "footer_tabs.documentation": "Documentation",
     "footer_tabs.documentation.academic": "Academic",
     "footer_tabs.documentation.manual": "Manual",

@@ -9,11 +9,17 @@
     --interactive-elements-color: #f1f1f1;
     --bg-color: var(--light-color);
     --text-color: var(--dark-color);
+    --brightness-start: 100;
+    --brightness-end: 0;
+    --text-neutral-color: rgba(111, 111, 111, 0.905);
+    --background-neutral-color-links: rgba(111, 111, 111, 0.148);
 }
 
 body.dark {
     --bg-color: var(--dark-color);
     --text-color: var(--light-color);
+    --brightness-start: 0;
+    --brightness-end: 100;
 }
 
 body {

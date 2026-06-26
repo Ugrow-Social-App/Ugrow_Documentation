@@ -3,14 +3,15 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 150vh;
 }
 
 .hero {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('../assets/images/image-2.png');
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.040)),
+        url('../assets/images/image-2.png');
     flex-direction: column;
     background-size: cover;
     background-position: center;
@@ -18,17 +19,18 @@ main {
     width: 100%;
     height: 100vh;
     padding: 3rem 2rem;
+    box-shadow: 0 1px 4px 5px rgba(0, 0, 0, 0.1);
 }
 
 .hero h1 {
-    color: var(--red-color);
-    font-size: 3rem;
+    /* color: var(--red-color); */
+    font-size: 5rem;
     margin-bottom: 1rem;
     font-weight: 900;
 }
 
 .hero p {
-    color: var(--red-color);
+    /* color: var(--red-color); */
     font-size: 1.5rem;
     font-weight: 700;
 }
@@ -51,9 +53,46 @@ main {
 }
 
 #get-started {
-    background-color: var(--blue-color);
+    /* background-color: var(--blue-color); */
 }
 
 #read-more {
-    background-color: var(--green-color);
+    /* background-color: var(--green-color); */
+}
+
+/* Sections */
+
+.common_section {
+    display: flex;
+    height: 75vh;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem 3rem;
+    flex-direction: row;
+    gap: 3rem;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.common_section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.common_section article {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 45%;
+}
+
+.common_section article h1 {
+    font-size: 3.5rem  
+}
+
+.common_section article p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.common_section figure {
+    flex: 1;
 }

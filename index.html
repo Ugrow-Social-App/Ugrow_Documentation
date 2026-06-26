@@ -16,13 +16,18 @@
 </head>
 <body>
     <header>
-        <img src="./src/assets/images/logo.svg" alt="Ugrow Logo">
+        <!-- Logo -->
+        <figure>
+            <img src="./src/assets/images/logo.svg" alt="Ugrow Logo">
+        </figure>
+        <!-- Input to search informations -->
         <form class="input-container">
             <button type="submit">
                 <img src="./src/assets/icons/search_icon.svg" alt="Search Icon">
             </button>
             <input id="search-input" type="text" placeholder="Search" autoComplete="on">
         </form>
+        <!-- Select to change the theme -->
         <select id="theme-select" onchange="setTheme(this.value)">
             <option value="" data-i18n="header.theme-select.info" hidden>
             </option>
@@ -30,51 +35,112 @@
             <option value="dark" data-i18n="header.theme-select.dark"></option>
             <option value="system" data-i18n="header.theme-select.system"></option>
         </select>
+        <!-- Select to change the language -->
         <select id="language-select" onchange="setLanguage(this.value)">
             <option value="" data-i18n="header.language-select.info" hidden>
             </option>
             <option value="en" data-i18n="header.language-select.en"></option>
             <option value="pt-br" data-i18n="header.language-select.pt-br"></option>
         </select>
+        <!-- Acess to navbar -->
+        <button id="burguer_menu" class="burguer_menu" onclick="navbar_active()">
+            <img src="./src/assets/icons/icon_menu.svg">
+        </button>
+        <!-- Navbar -->
+        <nav>
+            <h3 data-i18n="navbar_title"></h3>
+            <ul class="navbar_tabs">
+                <li class="navbar_tabs_sections">
+                    <h4 data-i18n="navbar_tabs.app"></h4>
+                    <ul>
+                        <li>
+                            <a href="/" data-i18n="navbar_tabs.app.download"></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar_tabs_sections">
+                    <h4 data-i18n="navbar_tabs.documents"></h4>
+                    <ul>
+                        <li>
+                            <a href="/" data-i18n="navbar_tabs.documents.manual"></a>
+                            <a href="/" data-i18n="navbar_tabs.documents.github"></a>
+                            <a href="/" data-i18n="navbar_tabs.documents.academic"></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar_tabs_sections">
+                    <h4 data-i18n="navbar_tabs.help"></h4>
+                    <ul>
+                        <li>
+                            <a href="/" data-i18n="navbar_tabs.help.contact"></a>
+                            <a href="/" data-i18n="navbar_tabs.help.questions"></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar_tabs_sections">
+                    <h4 data-i18n="navbar_tabs.about"></h4>
+                    <ul>
+                        <li>
+                            <a href="/" data-i18n="navbar_tabs.about.app"></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <figure>
+                <img src="./src/assets/images/monochrome_logo.svg">
+                <figcaption data-i18n="navbar_figure_caption"></figcaption>
+            </figure>
+        </nav>
     </header>
     <main>
+        <!-- Hero of website -->
         <section class="hero">
             <h1 data-i18n="hero.title"></h1>
             <p data-i18n="hero.subtitle"></p>
             <div class="links">
-                <a id="get-started" href="" data-i18n="hero.link.get_started"></a>
-                <a id="read-more" href="" data-i18n="hero.link.read_more"></a>
+                <a id="get-started" href="/" data-i18n="hero.link.get_started"></a>
+                <a id="read-more" href="/" data-i18n="hero.link.read_more"></a>
             </div>
         </section>
+        <!-- About Section to brings informations about the project -->
         <section id="about" class="common_section">
-            <h1 data-i18n="about.title"></h1>
-            <div class="content">
+            <article>
+                <h1 data-i18n="about.title"></h1>
                 <p data-i18n="about.description"></p>
-                <img src="" alt="">
-            </div>
+            </article>
+            <figure>
+                <img src="./src/assets/images/image-4.png" alt="">
+            </figure>
         </section>
-        <section id="resource-controls" class="">
-            <h1 data-i18n="resource-controls.title"></h1>
-            <div class="content">
+        <!-- The below sections bring informations about resources of app -->
+        <section id="resource-controls" class="common_section">
+            <article>
+                <h1 data-i18n="resource-controls.title"></h1>
                 <p data-i18n="resource-controls.description"></p>
-                <img src="" alt="">
-            </div>
+            </article>
+            <figure>
+                <img src="./src/assets/images/image-4.png" alt="">
+            </figure>
         </section>
-        <section id="resource-reports" class="">
-            <h1 data-i18n="resource-reports.title"></h1>
-            <div class="content">
+        <section id="resource-reports" class="common_section">
+            <article>
+                <h1 data-i18n="resource-reports.title"></h1>
                 <p data-i18n="resource-reports.description"></p>
-                <img src="" alt="">
-            </div>
+            </article>
+            <figure>
+                <img src="./src/assets/images/image-4.png" alt="">
+            </figure>
         </section>
-        <section id="resource-learning" class="">
-            <h1 data-i18n="resource-learning.title"></h1>
-            <div class="content">
+        <section id="resource-learning" class="common_section">
+            <article>
+                <h1 data-i18n="resource-learning.title"></h1>
                 <p data-i18n="resource-learning.description"></p>
-                <img src="" alt="">
-            </div>
+            </article>
+            <figure>
+                <img src="./src/assets/images/image-4.png" alt="">
+            </figure>
         </section>
-        <section id="contact">
+        <!-- <section id="contact">
             <h1 data-i18n="contact.title"></h1>
             <p data-i18n="contact.description"></p>
             <form id="contact_form" method="post">
@@ -90,34 +156,55 @@
                 <textarea name="message" id="input_message"></textarea>
                 <button id="btn-contact" type="submit" data-i18n="contact.form.btn"></button>
             </form>
-        </section>
+        </section> -->
     </main>
     <footer>
-        <img src="./src/assets/images/logo.svg">
-        <img src="./src/assets/images/iceti_logo.svg">
+        <!-- Informations across the tabs to shows the institutions and dedication -->
+        <div class="footer_special_info">
+            <div>
+                <figure>
+                    <img src="./src/assets/images/unicesumar_logo.svg">
+                </figure>
+                <figure>
+                    <img src="./src/assets/images/iceti_logo.svg">
+                </figure>
+            </div>
+            <small data-i18n="footer_special_info.logo_description"></small>
+            <span data-i18n="footer_special_info.message"></span>
+            <small data-i18n="footer_special_info.message_description"></small>
+        </div>
+        <!-- Tabs to acess other pages -->
         <ul class="footer_tabs">
-            <li data-i18n="footer_tabs.documentation">
+            <li>
+                <h4 data-i18n="footer_tabs.documentation"></h4>
                 <ul>
-                    <li><a href="" data-i18n="footer_tabs.documentation.academic"></a></li>
-                    <li><a href="" data-i18n="footer_tabs.documentation.manual"></a></li>
+                    <li><a href="/" data-i18n="footer_tabs.documentation.academic"></a></li>
+                    <li><a href="/" data-i18n="footer_tabs.documentation.manual"></a></li>
                 </ul>
             </li>
-            <li data-i18n="footer_tabs.help">
+            <li>
+                <h4 data-i18n="footer_tabs.help"></h4>
                 <ul>
-                    <li><a href="" data-i18n="footer_tabs.help.contact"></a></li>
-                    <li><a href="" data-i18n="footer_tabs.help.questions"></a></li>
+                    <li><a href="/" data-i18n="footer_tabs.help.contact"></a></li>
+                    <li><a href="/" data-i18n="footer_tabs.help.questions"></a></li>
                 </ul>
             </li>
-            <li data-i18n="footer_tabs.app">
+            <li>
+                <h4 data-i18n="footer_tabs.app"></h4>
                 <ul>
-                    <li><a href="" data-i18n="footer_tabs.app.ugrow"></a></li>
-                    <li><a href="" data-i18n="footer_tabs.app.term"></a></li>
+                    <li><a href="/" data-i18n="footer_tabs.app.ugrow"></a></li>
+                    <li><a href="/" data-i18n="footer_tabs.app.term"></a></li>
                 </ul>
             </li>
         </ul>
     </footer>
+    <!-- Scripts to change the language -->
     <script src="./src/js/i18n.js"></script>
+    <!-- Scripts to change the theme -->
     <script src="./src/js/theme.js"></script>
+    <!-- Scripts to form works -->
     <script src="./src/js/contact_form.js"></script>
+    <!-- Scripts to navbar -->
+     <script src="./src/js/navbar.js"></script>
 </body>
 </html>
