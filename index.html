@@ -1,97 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-i18n="head.title">Ugrow: Manage Your Finances With Us Free</title>
-    <link rel="icon" href="./public/favicon/favicon.svg" type="image/svg+xml">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- CSS -->
-    <link rel="stylesheet" href="./src/css/root.css">
-    <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="stylesheet" href="./src/css/home.css">
+    <head-component>
+        <title data-i18n="head.title">Ugrow: Manage Your Finances With Us Free</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="./src/css/home.css">
+    </head-component>
 </head>
 <body>
-    <header>
-        <!-- Logo -->
-        <figure>
-            <img src="./src/assets/images/logo.svg" alt="Ugrow Logo">
-        </figure>
-        <!-- Input to search informations -->
-        <form class="input-container">
-            <button type="submit">
-                <img src="./src/assets/icons/search_icon.svg" alt="Search Icon">
-            </button>
-            <input id="search-input" type="text" placeholder="Search" autoComplete="on">
-        </form>
-        <!-- Select to change the theme -->
-        <select id="theme-select" onchange="setTheme(this.value)">
-            <option value="" data-i18n="header.theme-select.info" hidden>
-            </option>
-            <option value="light" data-i18n="header.theme-select.light"></option>
-            <option value="dark" data-i18n="header.theme-select.dark"></option>
-            <option value="system" data-i18n="header.theme-select.system"></option>
-        </select>
-        <!-- Select to change the language -->
-        <select id="language-select" onchange="setLanguage(this.value)">
-            <option value="" data-i18n="header.language-select.info" hidden>
-            </option>
-            <option value="en" data-i18n="header.language-select.en"></option>
-            <option value="pt-br" data-i18n="header.language-select.pt-br"></option>
-        </select>
-        <!-- Acess to navbar -->
-        <button id="burguer_menu" class="burguer_menu" onclick="navbar_active()">
-            <img src="./src/assets/icons/icon_menu.svg">
-        </button>
-        <!-- Navbar -->
-        <nav>
-            <h3 data-i18n="navbar_title"></h3>
-            <ul class="navbar_tabs">
-                <li class="navbar_tabs_sections">
-                    <h4 data-i18n="navbar_tabs.app"></h4>
-                    <ul>
-                        <li>
-                            <a href="/" data-i18n="navbar_tabs.app.download"></a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="navbar_tabs_sections">
-                    <h4 data-i18n="navbar_tabs.documents"></h4>
-                    <ul>
-                        <li>
-                            <a href="/" data-i18n="navbar_tabs.documents.manual"></a>
-                            <a href="/" data-i18n="navbar_tabs.documents.github"></a>
-                            <a href="/" data-i18n="navbar_tabs.documents.academic"></a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="navbar_tabs_sections">
-                    <h4 data-i18n="navbar_tabs.help"></h4>
-                    <ul>
-                        <li>
-                            <a href="/" data-i18n="navbar_tabs.help.contact"></a>
-                            <a href="/" data-i18n="navbar_tabs.help.questions"></a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="navbar_tabs_sections">
-                    <h4 data-i18n="navbar_tabs.about"></h4>
-                    <ul>
-                        <li>
-                            <a href="/" data-i18n="navbar_tabs.about.app"></a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-            <figure>
-                <img src="./src/assets/images/monochrome_logo.svg">
-                <figcaption data-i18n="navbar_figure_caption"></figcaption>
-            </figure>
-        </nav>
-    </header>
+    <!-- Header Component -->
+    <header-component></header-component>
     <main>
         <!-- Hero of website -->
         <section class="hero">
@@ -109,7 +27,7 @@
                 <p data-i18n="about.description"></p>
             </article>
             <figure>
-                <img src="./src/assets/images/image-4.png" alt="">
+                <img src="./src/assets/images/content/goal.svg" alt="">
             </figure>
         </section>
         <!-- The below sections bring informations about resources of app -->
@@ -119,7 +37,7 @@
                 <p data-i18n="resource-controls.description"></p>
             </article>
             <figure>
-                <img src="./src/assets/images/image-4.png" alt="">
+                <img src="./src/assets/images/content/manage_finances.svg" alt="">
             </figure>
         </section>
         <section id="resource-reports" class="common_section">
@@ -128,7 +46,7 @@
                 <p data-i18n="resource-reports.description"></p>
             </article>
             <figure>
-                <img src="./src/assets/images/image-4.png" alt="">
+                <img src="./src/assets/images/content/reports.svg" alt="">
             </figure>
         </section>
         <section id="resource-learning" class="common_section">
@@ -137,74 +55,24 @@
                 <p data-i18n="resource-learning.description"></p>
             </article>
             <figure>
-                <img src="./src/assets/images/image-4.png" alt="">
+                <img src="./src/assets/images/content/world_education.svg" alt="">
             </figure>
         </section>
-        <!-- <section id="contact">
-            <h1 data-i18n="contact.title"></h1>
-            <p data-i18n="contact.description"></p>
-            <form id="contact_form" method="post">
-                <span id="error_msg_contact_form" style="display: none;"></span>
-                <label for="input_email" data-i18n="contact.form.email_label"></label>
-                <input name="email" id="input_email">
-                <select name="type" id="problem_type_select">
-                    <option value="" data-i18n="contact.form.problem_type_select.info" hidden></option>
-                    <option value="feedback" data-i18n="contact.form.problem_type_select.feedback"></option>
-                    <option value="problem" data-i18n="contact.form.problem_type_select.app_problem"></option>
-                </select>
-                <label for="input_message" data-i18n="contact.form.message_label"></label>
-                <textarea name="message" id="input_message"></textarea>
-                <button id="btn-contact" type="submit" data-i18n="contact.form.btn"></button>
-            </form>
-        </section> -->
     </main>
-    <footer>
-        <!-- Informations across the tabs to shows the institutions and dedication -->
-        <div class="footer_special_info">
-            <div>
-                <figure>
-                    <img src="./src/assets/images/unicesumar_logo.svg">
-                </figure>
-                <figure>
-                    <img src="./src/assets/images/iceti_logo.svg">
-                </figure>
-            </div>
-            <small data-i18n="footer_special_info.logo_description"></small>
-            <span data-i18n="footer_special_info.message"></span>
-            <small data-i18n="footer_special_info.message_description"></small>
-        </div>
-        <!-- Tabs to acess other pages -->
-        <ul class="footer_tabs">
-            <li>
-                <h4 data-i18n="footer_tabs.documentation"></h4>
-                <ul>
-                    <li><a href="/" data-i18n="footer_tabs.documentation.academic"></a></li>
-                    <li><a href="/" data-i18n="footer_tabs.documentation.manual"></a></li>
-                </ul>
-            </li>
-            <li>
-                <h4 data-i18n="footer_tabs.help"></h4>
-                <ul>
-                    <li><a href="/" data-i18n="footer_tabs.help.contact"></a></li>
-                    <li><a href="/" data-i18n="footer_tabs.help.questions"></a></li>
-                </ul>
-            </li>
-            <li>
-                <h4 data-i18n="footer_tabs.app"></h4>
-                <ul>
-                    <li><a href="/" data-i18n="footer_tabs.app.ugrow"></a></li>
-                    <li><a href="/" data-i18n="footer_tabs.app.term"></a></li>
-                </ul>
-            </li>
-        </ul>
-    </footer>
+    <footer-component></footer-component>
+    <!-- Components -->
+    <script src="./src/components/head.js"></script>
+    <script src="./src/components/header.js"></script>
+    <script src="./src/components/navbar.js"></script>
+    <script src="./src/components/footer.js"></script>
+    <!-- Statements -->
+    <!-- Hero Section -->
+    <script src="./src/js/hero_backgroud.js"></script>
     <!-- Scripts to change the language -->
     <script src="./src/js/i18n.js"></script>
     <!-- Scripts to change the theme -->
     <script src="./src/js/theme.js"></script>
-    <!-- Scripts to form works -->
-    <script src="./src/js/contact_form.js"></script>
     <!-- Scripts to navbar -->
-     <script src="./src/js/navbar.js"></script>
+    <script src="./src/js/navbar.js"></script>
 </body>
 </html>

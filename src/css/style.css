@@ -8,7 +8,6 @@
 /* Standard Elements */
 img {
     min-width: 100%;
-    height: auto;
 }
 
 a {
@@ -29,24 +28,33 @@ header {
     margin: 0;
     z-index: 1000;
     position: fixed;
-    transition: background-color 0.3s ease-in-out;
+    gap: 1.5rem;
+    transition: background-color 0.35s ease, backdrop-filter 0.35s ease, box-shadow 0.35s ease;
     animation-timeline: scroll();
     animation-range: 0 35vh;
     animation-name: headerBackground;
     animation-fill-mode: both;
-    gap: 1.5rem;
 }
 
 @keyframes headerBackground {
     0% {
         background-color: transparent;
+        backdrop-filter: blur(0px);
+        box-shadow: none;
     }
     100% {
-        background-color: var(--bg-color) ;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        background-color: color-mix(in srgb, var(--bg-color) 80%, transparent);
+        backdrop-filter: blur(16px) saturate(1.4);
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08), 0 4px 16px rgba(0, 0, 0, 0.06);
     }
 }
 
+header .logo {
+    min-width: 8rem;
+    width: 12rem;
+}
+
+/* Search Input */
 .input-container {
     display: flex;
     align-items: center;
@@ -59,14 +67,24 @@ header {
 
 .input-container input {
     width: 100%;
-    padding: 0.5rem 1rem;
-    border: 1px solid var(--dark-color);
-    border-radius: 10px 10px 10px 10px;
-    padding-left: 3rem;
-    border: none;
+    padding: 0.55rem 1rem 0.55rem 3rem;
+    border-radius: 24px;
+    border: 1.5px solid transparent;
     font-size: 1rem;
     background-color: var(--interactive-elements-color);
+    color: var(--text-color);
     outline: none;
+    transition: background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.input-container input::placeholder {
+    color: var(--text-neutral-color);
+}
+
+.input-container input:focus {
+    background-color: var(--bg-surface);
+    border-color: var(--blue-color);
+    box-shadow: 0 0 0 3px rgba(13, 126, 180, 0.15);
 }
 
 .input-container button {
@@ -74,18 +92,52 @@ header {
     align-items: center;
     justify-content: center;
     position: absolute;
-    left: 5px;
+    left: 10px;
     background: none;
     border: none;
     cursor: pointer;
 }
 
 .input-container button img {
-    width: 30px;
-    height: 30px;
-    color: var(--text-color);
+    width: 24px;
+    height: 24px;
+    opacity: 0.5;
+    transition: opacity 0.2s ease;
+    filter: brightness(var(--brightness-end));
 }
 
+.input-container:focus-within button img {
+    opacity: 1;
+}
+
+/* Selects */
+#theme-select,
+#language-select {
+    background-color: var(--interactive-elements-color);
+    color: var(--text-color);
+    border: 1.5px solid transparent;
+    border-radius: 10px;
+    padding: 0.45rem 0.6rem 0.45rem 0.85rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+#theme-select:hover,
+#language-select:hover {
+    background-color: var(--interactive-elements-hover);
+    border-color: rgba(13, 126, 180, 0.3);
+}
+
+#theme-select:focus,
+#language-select:focus {
+    border-color: var(--blue-color);
+    box-shadow: 0 0 0 3px rgba(13, 126, 180, 0.15);
+}
+
+/* Burger Menu  */
 header .burguer_menu {
     width: 2.25rem;
     height: 2.25rem;
@@ -94,11 +146,12 @@ header .burguer_menu {
     position: fixed;
     right: 2%;
     z-index: 1002;
+    cursor: pointer;
 }
 
 header .burguer_menu img {
     max-width: 100%;
-    transition: 0.3s ease-in-out;
+    transition: filter 0.3s ease;
     animation-timeline: scroll();
     animation-range: 0 15vh;
     animation-name: burguerMenu;
@@ -112,11 +165,8 @@ header:has(nav.active) .burguer_menu img {
 }
 
 @keyframes burguerMenu {
-    0% {
-        filter: brightness(var(--brightness-start));
-    } 100% {
-        filter: brightness(var(--brightness-end));
-    }
+    0%   { filter: brightness(var(--brightness-start)); }
+    100% { filter: brightness(var(--brightness-end)); }
 }
 
 /* Navbar */
@@ -128,18 +178,39 @@ nav.active {
     display: flex;
     flex-direction: column;
     position: fixed;
-    background-color: var(--bg-color);
-    width: 15vw;
+    background-color: var(--bg-surface);
+    width: 18vw;
     top: 0;
     right: 0;
     height: 100vh;
     padding: 1rem 2rem 3rem 1rem;
-    box-shadow: 4px 0 5px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: -4px 0 24px rgba(0, 0, 0, 0.12);
+    border-left: 1px solid color-mix(in srgb, var(--blue-color) 20%, transparent);
+    z-index: 1001;
+
+    /* Slide-in animation */
+    animation: navSlideIn 0.32s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes navSlideIn {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 nav.active h3 {
-    margin-top: 12px;
+    font-size: 1rem;
+    margin-top: 20px;
     margin-bottom: 3rem;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 nav.active .navbar_tabs {
@@ -157,19 +228,26 @@ nav.active .navbar_tabs .navbar_tabs_sections {
 nav.active .navbar_tabs .navbar_tabs_sections h4 {
     padding: 0 0 0 8px;
     color: var(--text-neutral-color);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
 }
 
 nav.active .navbar_tabs .navbar_tabs_sections ul li a {
     display: block;
-    padding: 2.5px 1px 2.5px 8px;
+    padding: 4px 8px;
     background-color: transparent;
-    transition: background-color 0.3s ease-in-out;
-    border-radius: 5px;
+    border-radius: 6px;
     font-weight: 500;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    transition: background-color 0.2s ease, color 0.2s ease, padding-left 0.2s ease;
 }
 
 nav.active .navbar_tabs .navbar_tabs_sections ul li a:hover {
     background-color: var(--background-neutral-color-links);
+    color: var(--blue-color);
+    padding-left: 14px;
 }
 
 nav.active figure {
@@ -177,17 +255,23 @@ nav.active figure {
     position: absolute;
     justify-content: center;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     padding: 2rem 1.5rem;
     bottom: 0;
     right: 0;
     left: 0;
-    box-shadow: 5px 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid color-mix(in srgb, var(--text-neutral-color) 30%, transparent);
 }
 
 nav.active figure img {
     filter: brightness(var(--brightness-end));
+}
+
+nav.active figure figcaption {
+    font-size: 0.75rem;
+    color: var(--text-neutral-color);
+    margin-top: 0.5rem;
+    text-align: center;
 }
 
 /* Footer */
@@ -197,14 +281,17 @@ footer {
     width: 100%;
     height: 60vh;
     padding: 2rem 2rem;
-    box-shadow: 4px 0px 4px 4px rgba(0, 0, 0, 0.1);
     justify-content: space-between;
     gap: 1rem;
-    background-image: url(../assets/icons/icon_opaque.svg);
+    background-color: var(--bg-surface);
+    background-image:
+        url(../assets/icons/icon_opaque.svg),
+        var(--accent-gradient-subtle);
     background-repeat: no-repeat;
-    background-size: 50%;
-    background-position-x: 125%;
-    background-position-y: 15%;
+    background-size: 50%, cover;
+    background-position: 125% 15%, center;
+    border-top: 1px solid color-mix(in srgb, var(--blue-color) 15%, transparent);
+    box-shadow: 0 -2px 16px rgba(0, 0, 0, 0.05);
 }
 
 footer .footer_special_info {
@@ -213,7 +300,7 @@ footer .footer_special_info {
     align-self: flex-start;
     align-items: center;
     justify-content: center;
-    max-width: 40%;
+    width: 40%;
 }
 
 footer .footer_special_info div {
@@ -230,6 +317,7 @@ footer .footer_special_info small {
     font-weight: 600;
     margin-top: 0.5rem;
     margin-bottom: 3rem;
+    color: var(--text-neutral-color);
 }
 
 footer .footer_special_info span {
@@ -249,8 +337,78 @@ footer .footer_tabs li {
     gap: 1rem;
 }
 
+footer .footer_tabs li h4 {
+    color: var(--text-color);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    opacity: 0.7;
+}
+
 footer .footer_tabs li ul {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
+
+footer .footer_tabs li ul li a {
+    color: var(--text-neutral-color);
+    font-size: 0.9rem;
+    transition: color 0.2s ease;
+}
+
+footer .footer_tabs li ul li a:hover {
+    color: var(--blue-color);
+}
+
+@media screen and (max-width: 1280px) {
+
+    .input-container {
+        margin-left: 6.75%;
+    }
+
+    nav.active {
+        width: 22.5vw;
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 0;
+    }
+
+    footer .footer_special_info {
+        align-self: center;
+        width: 100%;
+    }
+
+    footer .footer_tabs {
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        justify-content: space-evenly;
+        gap: 4rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .input-container {
+        min-width: 65%;
+        margin-left: 3.75%;
+        font-size: 0.75rem;
+    }
+
+    #theme-select,
+    #language-select {
+        padding: 0.6rem 0.6rem 0.6rem 0.5rem;
+        font-size: 0.75rem;
+    }
+
+    nav.active {
+        width: 33.3vw;
+    }
+}
+
+/* 935 */
+/* 769 */
