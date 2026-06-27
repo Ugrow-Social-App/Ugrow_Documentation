@@ -1,0 +1,20 @@
+        <section id="contact">
+            <h1 data-i18n="contact.title"></h1>
+            <p data-i18n="contact.description"></p>
+            <form id="contact_form" method="post">
+                <span id="error_msg_contact_form" style="display: none;"></span>
+                <label for="input_email" data-i18n="contact.form.email_label"></label>
+                <input name="email" id="input_email">
+                <select name="type" id="problem_type_select">
+                    <option value="" data-i18n="contact.form.problem_type_select.info" hidden></option>
+                    <option value="feedback" data-i18n="contact.form.problem_type_select.feedback"></option>
+                    <option value="problem" data-i18n="contact.form.problem_type_select.app_problem"></option>
+                </select>
+                <label for="input_message" data-i18n="contact.form.message_label"></label>
+                <textarea name="message" id="input_message"></textarea>
+                <button id="btn-contact" type="submit" data-i18n="contact.form.btn"></button>
+            </form>
+        </section>
+
+        <!-- Scripts to form works -->
+    <script src="./src/js/contact_form.js"></script>
