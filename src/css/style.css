@@ -411,4 +411,18 @@ footer .footer_tabs li ul li a:hover {
 }
 
 /* 935 */
+@media screen and (max-width: 955px) {
+    nav.active {
+        width: 50vw;
+    }
+
+    .input-container {
+        min-width: 500px;
+        align-self: center;
+    }
+
+    nav.active {
+        gap: 1.5rem;
+    }
+}
 /* 769 */

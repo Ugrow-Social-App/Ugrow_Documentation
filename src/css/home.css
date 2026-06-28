@@ -144,6 +144,15 @@ main {
         height: 90vh;
     }
 
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
     .common_section {
         height: 45vh;
         padding: 1rem 1.5rem;
@@ -160,5 +169,15 @@ main {
 
     .common_section article p {
         font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 955px) {
+    .common_section {
+        height: 85vh;
+    }
+
+    .common_section article {
+        flex: 1;
     }
 }
