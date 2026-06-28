@@ -1,5 +1,7 @@
 {
     "head.title": "Ugrow: Manage Your Finances With Us Free",
+
+    "header.logo": "Ugrow Logo",
     "header.theme-select.info": "Theme",
     "header.theme-select.light": "Light",
     "header.theme-select.dark": "Dark",
@@ -7,6 +9,7 @@
     "header.language-select.info": "Language",
     "header.language-select.en": "English (USA)",
     "header.language-select.pt-br": "Portuguese (Brazil)",
+    "header.burguer_menu": "Menu",
 
     "navbar_title": "Other Informations",
     "navbar_tabs.app": "App",
@@ -20,6 +23,7 @@
     "navbar_tabs.help.questions": "Frequently Asked Questions",
     "navbar_tabs.about": "About",
     "navbar_tabs.about.app": "Project",
+    "navbar.monochrome_logo": "Monochrome Ugrow Logo",
     "navbar_figure_caption": "© Ugrow, 2026",
 
 
@@ -30,13 +34,17 @@
 
     "about.title": "What's the Ugrow?",
     "about.description": "The Ugrows is an academic project by Guilherme Veiga Pedromilo through ICETI - Cesumar Technology and Innovate Institute. Through a multi-platform desktop application, users will be able to manage their debts in an organized and simple manner, while also learning more about financial education through digital content and educational materials provided within the application.",
+    "about.image": "Image about the Ugrow, represents yours goal",
 
     "resource-controls.title": "Manage your Finances Controls",
     "resource-controls.description": "Create and update your finances controls! Manage month to month your expenses and money",
+    "resource-controls.image": "Image about recourse of Ugrow controls ",
     "resource-reports.title": "You May Have Reports In Your Hands",
     "resource-reports.description": "Create PDFs of the your controls or just see important details in the integrated dashboard to your controls",
+    "resource-reports.image": "Image about reports of app",
     "resource-learning.title": "Learn to Take Care of Your Money",
     "resource-learning.description": "Learn to manage your money through indicated metrics by app or created by you. Futhermore, the Ugrow indicates important contents and materials to read or watch",
+    "resource-learning.image": "Image about resource of learning",
 
     "contact.title": "Contact Us",
     "contact.description": "Contact us to what we may help you!",
@@ -49,6 +57,7 @@
     "contact.form.message_label": "Why are you opening this request?",
     "contact.form.btn": "Submit the request",
 
+    "footer_special_info.logo_unicesumar": "UniCesumar Logo",
     "footer_special_info.logo_description": "Institutions Involved",
     "footer_special_info.message": "I thank God and my parents for everthing and, teachers, friends and institutions for support during this project. 'Therefore encourage one another and build each other up, just as in fact you are doing' - 1 Thessalonians 5:11.",
     "footer_special_info.message_description": "Dedication by Guilherme Veiga Pedromilo",

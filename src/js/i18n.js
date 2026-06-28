@@ -17,6 +17,7 @@ const getLanguage = () => {
     try {
         const language = localStorage.getItem('language') || 'en';
         loadFile(language).then((data) => {
+            // General Elements
             const elements = document.querySelectorAll('[data-i18n]');
             elements.forEach((element) => {
                 const key = element.getAttribute('data-i18n');
@@ -24,6 +25,14 @@ const getLanguage = () => {
                     element.textContent = data[key];
                 }
             });
+            // Elements have alt 
+            const alt_elements = document.querySelectorAll('[data-i18n-alt]');
+            alt_elements.forEach((element) => {
+                const key = element.getAttribute('data-i18n-alt');
+                if (data[key]) {
+                    element.alt = data[key];
+                }
+            })
         })
     } catch (error) {
         console.error('Error loading language file:', error);

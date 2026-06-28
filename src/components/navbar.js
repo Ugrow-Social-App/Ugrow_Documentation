@@ -42,7 +42,7 @@ class Navbar extends HTMLElement {
                 </li>
             </ul>
             <figure>
-                <img src="./src/assets/images/logos/monochrome_logo.svg">
+                <img src="./src/assets/images/logos/monochrome_logo.svg" data-i18n-alt="navbar.monochrome_logo">
                 <figcaption data-i18n="navbar_figure_caption"></figcaption>
             </figure>
         </nav>

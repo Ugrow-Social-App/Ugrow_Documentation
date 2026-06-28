@@ -15,8 +15,6 @@ const verify_body_size = () => {
             moveHtmlElements(language_select, navbar);
             moveHtmlElements(theme_select, navbar);
             common_sections.forEach((section) => {
-                console.log("hw")
-                console.log(section)
                 let elementToMove = section.lastElementChild;
                 if (elementToMove && elementToMove.nodeName === "ARTICLE") {
                     elementToMove = elementToMove.previousElementSibling;
