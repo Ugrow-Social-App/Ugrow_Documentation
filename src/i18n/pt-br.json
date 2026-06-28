@@ -1,6 +1,7 @@
 {
     "head.title": "Ugrow: Controle suas Finanças Pessoais Gratuitamente",
 
+    "header.logo": "Logotipo Ugrow",
     "header.theme-select.info": "Tema",
     "header.theme-select.light": "Claro",
     "header.theme-select.dark": "Escuro",
@@ -8,6 +9,7 @@
     "header.language-select.info": "Idioma",
     "header.language-select.en": "Inglês (EUA)",
     "header.language-select.pt-br": "Português (Brasil)",
+    "header.burguer_menu": "Menu",
 
     "navbar_title": "Outras Informações",
     "navbar_tabs.app": "Aplicativo",
@@ -21,6 +23,7 @@
     "navbar_tabs.help.questions": "Perguntas Frequentes",
     "navbar_tabs.about": "Sobre",
     "navbar_tabs.about.app": "Projeto",
+    "navbar.monochrome_logo": "Logotipo Monocromática",
     "navbar_figure_caption": "© Ugrow, 2026",
 
     "hero.title": "Bem-vindo ao Ugrow",
@@ -30,14 +33,18 @@
 
     "about.title": "O que é o Ugrow?",
     "about.description": "O Ugrow é um projeto acadêmico (realizado por Guilherme Veiga Pedromilo através do ICETI - Instituto Cesumar de Tecnologia e Inovação) que tem o objetivo de auxiliar as pessoas a controlarem suas finanças, de forma organizada e simples, e também aprender mais sobre educação financeira através de conteúdos e materiais digitais oferecidos dentro do aplicativo.",
+    "about.image": "Imagem sobre o Ugrow, representa sua meta",
 
     "resource-controls.title": "Gerencie seus Controles Financeiros",
     "resource-controls.description": "Crie e atualize seus controles financeiros! Controle mês a mês o seu saldo e suas despesas.",
+    "resource-controls.image": "Imagem sobre o recurso de controle do aplicativo",
     "resource-reports.title": "Tenha Relatórios na Sua Mão",
     "resource-reports.description": "Gere PDFs dos seus controles ou apenas visualize informações importantes no dashboard integrado ao seus controles.",
+    "resource-reports.image": "Imagem sobre os relatórios do aplicativo",
     "resource-learning.title": "Aprenda a Cuidar do Seu Dinheiro",
     "resource-learning.description": "Aprenda a gerenciar o seu dinheiro através de métricas indicadas pelo o aplicativo ou criadas por você. Além disso, o Ugrow indica conteúdos e materiais importantes para leitura e visualização.",
-
+    "resource-learning.image": "Imagem sobre o recurso de aprendizagem",
+    
     "contact.title": "Contate-nos",
     "contact.description": "Nos contate para que nós possamos ajudar você",
     "contact.error.email": "E-mail inválido, insira um e-mail válido (example@gmail.com)",
@@ -49,6 +56,7 @@
     "contact.form.message_label": "Por que você está abrindo esta requisição?",
     "contact.form.btn": "Envie a Requisição",
 
+    "footer_special_info.logo_unicesumar": "Logotipo UniCesumar",
     "footer_special_info.logo_description": "Instituições Envolvidas",
     "footer_special_info.message": "Agradeço a Deus e meus pais por tudo e, professores, amigos e instituições pelo auxílio e apoio durante esse projeto. 'Por isso, exortem-se e edifiquem-se uns aos outros, como de fato vocês estão fazendo' - 1 Tessalonicenses 5:11.",
     "footer_special_info.message_description": "Dedicatória de Guilherme Veiga Pedromilo",

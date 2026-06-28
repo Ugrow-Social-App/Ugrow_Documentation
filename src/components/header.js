@@ -4,7 +4,7 @@ class Header extends HTMLElement {
         <header>
             <!-- Logo -->
             <a class="logo" href="/">
-                <img src="./src/assets/images/logos/logo.svg" alt="Ugrow Logo">
+                <img src="./src/assets/images/logos/logo.svg" data-i18n-alt="header.logo">
             </a>
             <!-- Input to search informations -->
             <form class="input-container">
@@ -29,7 +29,7 @@ class Header extends HTMLElement {
                 <option value="pt-br" data-i18n="header.language-select.pt-br"></option>
             </select>
             <!-- Acess to navbar -->
-            <button id="burguer_menu" class="burguer_menu" onclick="navbar_active()">
+            <button id="burguer_menu" class="burguer_menu" onclick="navbar_active()" data-i18n-alt="header.burguer_menu">
                 <img src="./src/assets/icons/icon_menu.svg">
             </button>
             <!-- Navbar Component -->

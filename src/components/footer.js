@@ -6,7 +6,7 @@ class Footer extends HTMLElement {
             <div class="footer_special_info">
                 <div>
                     <figure>
-                        <img src="./src/assets/images/logos/unicesumar_logo.svg">
+                        <img src="./src/assets/images/logos/unicesumar_logo.svg" data-i18n-alt="footer_special_info.logo_unicesumar">
                     </figure>
                     <figure>
                         <img src="./src/assets/images/logos/iceti_logo.svg">

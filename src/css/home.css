@@ -138,7 +138,6 @@ main {
 }
 
 @media screen and (max-width: 1024px) {
-
     .hero {
         background-position: center center;
         height: 90vh;
@@ -179,5 +178,95 @@ main {
 
     .common_section article {
         flex: 1;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .hero {
+        height: 65vh;
+        padding: 3rem 1rem;
+    }
+
+    .hero h1 {
+        font-size: 2.75rem;
+    }
+
+    .common_section {
+        height: 65vh;
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .hero h1 {
+        font-size: 2.15rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero .links {
+        padding: 0.5rem;
+    }
+
+    .hero .links a {
+        font-size: 0.9rem;
+    }
+
+    .common_section {
+        height: 85vh;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .hero {
+        height: 50vh;
+    }
+
+    .hero h1 {
+        font-size: 1.75rem;
+    }
+
+    .hero p {
+        font-size: 0.8rem;
+    }
+
+    .hero .links a {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+
+    .common_section {
+        height: 55vh;
+    }
+
+    .common_section article h1 {
+        font-size: 1.5rem;
+    }
+
+    .common_section article p {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero p {
+        font-size: 0.7rem;
+    }
+
+    .hero .links a {
+        font-size: 0.65rem;
+    }
+
+    .common_section article {
+        gap: 0.5rem;
+    }
+
+    .common_section article h1 {
+        font-size: 1.2rem;
     }
 }
