@@ -17,7 +17,7 @@ const selectARandonImage = () => {
     // Generate a random number based on the range of images keys
     const image = Math.floor(Math.random() * (Object.keys(images).length) + 1)
     // Apply image like background of hero
-    hero.style.background = `linear-gradient(rgba(28, 28, 28, 0.38)), url(${pathHero + images[image]})`;
+    hero.style.backgroundImage = `linear-gradient(rgba(28, 28, 28, 0.38)), url(${pathHero + images[image]})`;
 }
 
 selectARandonImage()
