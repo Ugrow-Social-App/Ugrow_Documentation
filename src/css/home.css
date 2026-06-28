@@ -1,0 +1,272 @@
+img {
+    max-width: 100%;
+}
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 3rem 2rem;
+    box-shadow: 0 1px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hero h1 {
+    color: var(--light-color);
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+    text-shadow: 0 2px 16px rgba(0, 0, 0, 0.35);
+}
+
+.hero p {
+    color: var(--light-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+.hero .links {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1.5rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero .links a {
+    text-decoration: none;
+    color: var(--light-color);
+    padding: 12px 28px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.hero .links a:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.1);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+#get-started {
+    background: linear-gradient(135deg, var(--blue-color), #0a5f88);
+    box-shadow: 0 4px 14px rgba(13, 126, 180, 0.45);
+}
+
+#read-more {
+    background: linear-gradient(135deg, var(--red-color), #9a5a5a);
+    box-shadow: 0 4px 14px rgba(183, 122, 122, 0.45);
+}
+
+/* Common Sections */
+.common_section {
+    display: flex;
+    height: 75vh;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem 3rem;
+    flex-direction: row;
+    gap: 3rem;
+    background-color: var(--bg-color);
+    transition: background-color 0.35s ease;
+}
+
+/* Alternating background */
+.common_section:nth-child(even) {
+    flex-direction: row-reverse;
+    background-color: var(--bg-surface);
+}
+
+.common_section article {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 45%;
+}
+
+.common_section article h1 {
+    font-size: 3.5rem;
+    background: var(--alternative-accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.common_section article p {
+    font-size: 1.2rem;
+    text-align: justify;
+    color: var(--text-neutral-color);
+    line-height: 1.7;
+}
+
+.common_section figure {
+    flex: 1;
+}
+
+.common_section figure img {
+    border-radius: 12.5%;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+}
+
+.common_section figure img:hover {
+    transform: scale(1.025) translateY(-4px);
+    box-shadow: 0 16px 48px rgba(13, 126, 180, 0.15);
+}
+
+@media screen and (max-width: 1280px) {
+    .common_section article h1 {
+        font-size: 2.75rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .hero {
+        background-position: center center;
+        height: 90vh;
+    }
+
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .common_section {
+        height: 45vh;
+        padding: 1rem 1.5rem;
+        gap: 1.2rem;
+    }
+
+    .common_section article {
+        gap: 1.5rem;
+    }
+
+    .common_section article h1 {
+        font-size: 2rem;
+    }
+
+    .common_section article p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 955px) {
+    .common_section {
+        height: 85vh;
+    }
+
+    .common_section article {
+        flex: 1;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .hero {
+        height: 65vh;
+        padding: 3rem 1rem;
+    }
+
+    .hero h1 {
+        font-size: 2.75rem;
+    }
+
+    .common_section {
+        height: 65vh;
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .hero h1 {
+        font-size: 2.15rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero .links {
+        padding: 0.5rem;
+    }
+
+    .hero .links a {
+        font-size: 0.9rem;
+    }
+
+    .common_section {
+        height: 85vh;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .hero {
+        height: 50vh;
+    }
+
+    .hero h1 {
+        font-size: 1.75rem;
+    }
+
+    .hero p {
+        font-size: 0.8rem;
+    }
+
+    .hero .links a {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+
+    .common_section {
+        height: 55vh;
+    }
+
+    .common_section article h1 {
+        font-size: 1.5rem;
+    }
+
+    .common_section article p {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero p {
+        font-size: 0.7rem;
+    }
+
+    .hero .links a {
+        font-size: 0.65rem;
+    }
+
+    .common_section article {
+        gap: 0.5rem;
+    }
+
+    .common_section article h1 {
+        font-size: 1.2rem;
+    }
+}
