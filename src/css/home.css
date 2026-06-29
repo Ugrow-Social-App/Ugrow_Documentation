@@ -78,7 +78,7 @@ main {
 /* Common Sections */
 .common_section {
     display: flex;
-    height: 75vh;
+    height: auto;
     align-items: center;
     justify-content: space-evenly;
     padding: 2rem 3rem;
@@ -153,7 +153,6 @@ main {
     }
 
     .common_section {
-        height: 45vh;
         padding: 1rem 1.5rem;
         gap: 1.2rem;
     }
@@ -172,10 +171,6 @@ main {
 }
 
 @media screen and (max-width: 955px) {
-    .common_section {
-        height: 85vh;
-    }
-
     .common_section article {
         flex: 1;
     }
@@ -192,7 +187,7 @@ main {
     }
 
     .common_section {
-        height: 65vh;
+        height: auto;
     }
 }
 
@@ -212,10 +207,6 @@ main {
     .hero .links a {
         font-size: 0.9rem;
     }
-
-    .common_section {
-        height: 85vh;
-    }
 }
 
 @media screen and (max-width: 375px) {
@@ -234,10 +225,6 @@ main {
     .hero .links a {
         padding: 0.5rem 1rem;
         font-size: 0.8rem;
-    }
-
-    .common_section {
-        height: 55vh;
     }
 
     .common_section article h1 {
@@ -268,5 +255,11 @@ main {
 
     .common_section article h1 {
         font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-height: 667px) {
+    .hero {
+        height: 150vh;
     }
 }

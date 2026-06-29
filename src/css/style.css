@@ -371,6 +371,7 @@ footer .footer_tabs li ul li a:hover {
     }
 
     footer {
+        height: auto;
         flex-direction: column;
         justify-content: space-around;
         gap: 0;
@@ -507,10 +508,6 @@ footer .footer_tabs li ul li a:hover {
 
     nav.active {
         width: 90vw;
-    }
-
-    footer {
-        height: auto;
     }
 
     footer .footer_tabs {

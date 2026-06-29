@@ -4,7 +4,10 @@
   "description": "Ugrow's Documentation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server --port=5500 --no-browser",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "repository": {
     "type": "git",
@@ -17,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/Ugrow-Social-App/Ugrow_Documentation/issues"
   },
-  "homepage": "https://github.com/Ugrow-Social-App/Ugrow_Documentation#readme"
+  "homepage": "https://github.com/Ugrow-Social-App/Ugrow_Documentation#readme",
+  "devDependencies": {
+    "cypress": "^15.18.0",
+    "live-server": "^1.2.2"
+  }
 }
