@@ -2,7 +2,7 @@ class Navbar extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
         <!-- Navbar -->
-        <nav>
+        <nav data-cy="navbar">
             <h3 data-i18n="navbar_title"></h3>
             <ul class="navbar_tabs">
                 <li class="navbar_tabs_sections">

@@ -1,7 +1,7 @@
 class Footer extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-        <footer>
+        <footer data-cy="footer">
             <!-- Informations across the tabs to shows the institutions and dedication -->
             <div class="footer_special_info">
                 <div>
