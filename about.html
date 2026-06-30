@@ -2,23 +2,20 @@
 <html lang="en">
 <head>
     <head-component>
-        <title data-i18n="head.title">Ugrow: Manage Your Finances With Us Free</title>
+        <title data-i18n="about_head.title">About Ugrow</title>
         <!-- CSS -->
         <link rel="stylesheet" href="./src/css/home.css">
+        <link rel="stylesheet" href="./src/css/about.css">
     </head-component>
 </head>
 <body>
     <!-- Header Component -->
     <header-component></header-component>
-    <main data-cy="main-content">
-        <!-- Hero of website -->
-        <section class="hero">
-            <h1 data-i18n="hero.title"></h1>
-            <p data-i18n="hero.subtitle"></p>
-            <div class="links">
-                <a id="get-started" href="/" data-i18n="hero.link.get_started"></a>
-                <a id="read-more" href="./about.html" data-i18n="hero.link.read_more"></a>
-            </div>
+    <main data-cy="about_main-content">
+        <!-- Hero About of website -->
+        <section class="about_hero">
+            <h1 data-i18n="about_hero.title"></h1>
+            <p data-i18n="about_hero.subtitle"></p>
         </section>
         <!-- About Section to brings informations about the project -->
         <section id="about" class="common_section">
@@ -30,32 +27,31 @@
                 <img src="./src/assets/images/content/goal.svg" data-i18n-alt="about.image">
             </figure>
         </section>
-        <!-- The below sections bring informations about resources of app -->
-        <section id="resource-controls" class="common_section">
+        <section id="creator" class="common_section">
             <article>
-                <h1 data-i18n="resource-controls.title"></h1>
-                <p data-i18n="resource-controls.description"></p>
+                <h1 data-i18n="creator.title"></h1>
+                <p data-i18n="creator.description"></p>
             </article>
             <figure>
-                <img src="./src/assets/images/content/manage_finances.svg" data-i18n-alt="resource-controls.image">
+                <img src="./src/assets/images/content/creator_image.png" data-i18n-alt="creator.image">
             </figure>
         </section>
-        <section id="resource-reports" class="common_section">
+        <section id="idea" class="common_section">
             <article>
-                <h1 data-i18n="resource-reports.title"></h1>
-                <p data-i18n="resource-reports.description"></p>
+                <h1 data-i18n="idea.title"></h1>
+                <p data-i18n="idea.description"></p>
             </article>
             <figure>
-                <img src="./src/assets/images/content/reports.svg" data-i18n-alt="resource-reports.image">
+                <img src="./src/assets/images/content/dark_world_education.svg" data-i18n-alt="idea.image">
             </figure>
         </section>
-        <section id="resource-learning" class="common_section">
+        <section id="intitutions" class="common_section">
             <article>
-                <h1 data-i18n="resource-learning.title"></h1>
-                <p data-i18n="resource-learning.description"></p>
+                <h1 data-i18n="institutions.title"></h1>
+                <p data-i18n="institutions.description"></p>
             </article>
             <figure>
-                <img src="./src/assets/images/content/world_education.svg" data-i18n-alt="resource-learning.image">
+                <img src="./src/assets/images/content/institutions.svg" data-i18n-alt="institutions.image">
             </figure>
         </section>
     </main>
@@ -66,14 +62,13 @@
     <script src="./src/components/navbar.js"></script>
     <script src="./src/components/footer.js"></script>
     <!-- Statements -->
-    <!-- Hero Section -->
-    <script src="./src/js/hero_backgroud.js"></script>
     <!-- Scripts to change the language -->
     <script src="./src/js/i18n.js"></script>
     <!-- Scripts to change the theme -->
     <script src="./src/js/theme.js"></script>
     <!-- Scripts to navbar -->
     <script src="./src/js/navbar.js"></script>
+    <!-- Scripts to move elements in the section -->
     <script src="./src/js/move_elements.js"></script>
 </body>
 </html>

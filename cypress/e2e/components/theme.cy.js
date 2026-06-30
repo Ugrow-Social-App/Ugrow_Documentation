@@ -2,7 +2,7 @@
 describe("Theme Selector", () => {
 
     beforeEach(() => {
-        cy.visit("/");
+        cy.visit("/index.html");
     });
 
     // Verify switch

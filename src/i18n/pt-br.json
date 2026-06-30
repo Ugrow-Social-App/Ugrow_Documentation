@@ -23,7 +23,7 @@
     "navbar_tabs.help.questions": "Perguntas Frequentes",
     "navbar_tabs.about": "Sobre",
     "navbar_tabs.about.app": "Projeto",
-    "navbar.monochrome_logo": "Logotipo Monocromática",
+    "navbar.monochrome_logo": "Logotipo Monocromático",
     "navbar_figure_caption": "© Ugrow, 2026",
 
     "hero.title": "Bem-vindo ao Ugrow",
@@ -39,26 +39,26 @@
     "resource-controls.description": "Crie e atualize seus controles financeiros! Controle mês a mês o seu saldo e suas despesas.",
     "resource-controls.image": "Imagem sobre o recurso de controle do aplicativo",
     "resource-reports.title": "Tenha Relatórios na Sua Mão",
-    "resource-reports.description": "Gere PDFs dos seus controles ou apenas visualize informações importantes no dashboard integrado ao seus controles.",
+    "resource-reports.description": "Gere PDFs dos seus controles ou apenas visualize informações importantes no dashboard integrado aos seus controles.",
     "resource-reports.image": "Imagem sobre os relatórios do aplicativo",
     "resource-learning.title": "Aprenda a Cuidar do Seu Dinheiro",
-    "resource-learning.description": "Aprenda a gerenciar o seu dinheiro através de métricas indicadas pelo o aplicativo ou criadas por você. Além disso, o Ugrow indica conteúdos e materiais importantes para leitura e visualização.",
+    "resource-learning.description": "Aprenda a gerenciar o seu dinheiro através de métricas indicadas pelo aplicativo ou criadas por você. Além disso, o Ugrow indica conteúdos e materiais importantes para leitura e visualização.",
     "resource-learning.image": "Imagem sobre o recurso de aprendizagem",
     
     "contact.title": "Contate-nos",
-    "contact.description": "Nos contate para que nós possamos ajudar você",
+    "contact.description": "Nos contate para que possamos ajudar você",
     "contact.error.email": "E-mail inválido, insira um e-mail válido (example@gmail.com)",
-    "contact.error.type": "Tipo de requisição inválida, escolha uma opção válida",
+    "contact.error.type": "Tipo de requisição inválido, escolha uma opção válida",
     "contact.form.email_label": "E-mail",
     "contact.form.problem_type_select.info": "Tipo de requisição",
     "contact.form.problem_type_select.feedback": "Avaliação/Comentário",
     "contact.form.problem_type_select.app_problem": "Problemas no Aplicativo",
     "contact.form.message_label": "Por que você está abrindo esta requisição?",
-    "contact.form.btn": "Envie a Requisição",
+    "contact.form.btn": "Enviar a Requisição",
 
     "footer_special_info.logo_unicesumar": "Logotipo UniCesumar",
     "footer_special_info.logo_description": "Instituições Envolvidas",
-    "footer_special_info.message": "Agradeço a Deus e meus pais por tudo e, professores, amigos e instituições pelo auxílio e apoio durante esse projeto. 'Por isso, exortem-se e edifiquem-se uns aos outros, como de fato vocês estão fazendo' - 1 Tessalonicenses 5:11.",
+    "footer_special_info.message": "Agradeço a Deus e aos meus pais por tudo e, aos professores, amigos e instituições pelo auxílio e apoio durante esse projeto. 'Por isso, exortem-se e edifiquem-se uns aos outros, como de fato vocês estão fazendo' - 1 Tessalonicenses 5:11.",
     "footer_special_info.message_description": "Dedicatória de Guilherme Veiga Pedromilo",
     "footer_tabs.documentation": "Documentação",
     "footer_tabs.documentation.academic": "Acadêmica",
@@ -68,5 +68,21 @@
     "footer_tabs.help.questions": "Perguntas Frequentes",
     "footer_tabs.app": "Sobre",
     "footer_tabs.app.ugrow": "Aplicativo",
-    "footer_tabs.app.term": "Termo de Serviço"
+    "footer_tabs.app.term": "Termos de Serviço",
+
+    "about_head.title": "Sobre o Ugrow",
+    "about_hero.title": "Sobre o Ugrow",
+    "about_hero.subtitle": "O Ugrow é uma solução inovadora para gerir finanças pessoais no seu computador",
+    
+    "creator.title": "Quem é o Criador?",
+    "creator.description": "Guilherme Veiga Pedromilo é estudante de Engenharia de Software pela UniCesumar (em formação), técnico em desenvolvimento de sistemas e eletroeletrônica formado pelo SENAI. Atualmente, é estagiário em TI em BRM (Gestão de Relacionamento com o Negócio) da ZF Automotive (ZF Group). Além disso, é músico e violinista pela Orquestra Sinfônica Acadêmica da Escola Heitor Villa-Lobos (Americana-SP).",
+    "creator.image": "Foto do Guilherme Veiga Pedromilo",
+
+    "idea.title": "Ideia e Projeto",
+    "idea.description": "A ideia nasceu da necessidade do criador de controlar suas finanças, ao perceber que as pessoas falam muito sobre controle financeiro, mas a maioria não tem um bom controle de fato. Então, a meta é criar um aplicativo desktop para as pessoas gerirem suas finanças e aprenderem um pouco sobre como guardar o seu dinheiro.",
+    "idea.image": "Imagem que representa a ideia e o projeto",
+
+    "institutions.title": "Instituições Envolvidas",
+    "institutions.description": "A UniCesumar (Universidade Cesumar) e o ICETI (Instituto Cesumar de Tecnologia e Inovação) são as instituições envolvidas neste projeto, contribuindo com seus professores, conteúdos e materiais, suporte técnico e financeiro. Elas trabalham juntas como parceiras oficiais, comprometidas com a educação, a inovação e a comunidade científica.",
+    "institutiions.image": "Imagem que representa as instituições com uma biblioteca"
 }

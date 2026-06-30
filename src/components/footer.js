@@ -6,10 +6,14 @@ class Footer extends HTMLElement {
             <div class="footer_special_info">
                 <div>
                     <figure>
-                        <img src="./src/assets/images/logos/unicesumar_logo.svg" data-i18n-alt="footer_special_info.logo_unicesumar">
+                        <a href="https://www.unicesumar.edu.br/">
+                            <img src="./src/assets/images/logos/unicesumar_logo.svg" data-i18n-alt="footer_special_info.logo_unicesumar" target="_blank" rel="noopener noreferrer">
+                        </a>
                     </figure>
                     <figure>
-                        <img src="./src/assets/images/logos/iceti_logo.svg">
+                        <a href="https://www.linkedin.com/company/iceti-instituto-cesumar-de-ci%C3%AAncia-tecnologia-e-inova%C3%A7%C3%A3o/" target="_blank" rel="noopener noreferrer">
+                            <img src="./src/assets/images/logos/iceti_logo.svg">
+                        </a>
                     </figure>
                 </div>
                 <small data-i18n="footer_special_info.logo_description"></small>
@@ -35,7 +39,7 @@ class Footer extends HTMLElement {
                 <li>
                     <h4 data-i18n="footer_tabs.app"></h4>
                     <ul>
-                        <li><a href="/" data-i18n="footer_tabs.app.ugrow"></a></li>
+                        <li><a href="/src/pages/about.html" data-i18n="footer_tabs.app.ugrow"></a></li>
                         <li><a href="/" data-i18n="footer_tabs.app.term"></a></li>
                     </ul>
                 </li>
