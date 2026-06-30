@@ -1,5 +1,5 @@
 {
-    "head.title": "Ugrow: Manage Your Finances With Us Free",
+    "head.title": "Ugrow: Manage Your Finances With Us for Free",
 
     "header.logo": "Ugrow Logo",
     "header.theme-select.info": "Theme",
@@ -11,7 +11,7 @@
     "header.language-select.pt-br": "Portuguese (Brazil)",
     "header.burguer_menu": "Menu",
 
-    "navbar_title": "Other Informations",
+    "navbar_title": "Other Information",
     "navbar_tabs.app": "App",
     "navbar_tabs.app.download": "Downloads",
     "navbar_tabs.documents": "Documentation",
@@ -28,38 +28,38 @@
 
 
     "hero.title": "Welcome to Ugrow",
-    "hero.subtitle": "Implementing innovative solution to help and manage your personal finances",
+    "hero.subtitle": "Implementing an innovative solution to help and manage your personal finances",
     "hero.link.get_started": "Get Started",
     "hero.link.read_more": "Read More",
 
-    "about.title": "What's the Ugrow?",
-    "about.description": "The Ugrows is an academic project by Guilherme Veiga Pedromilo through ICETI - Cesumar Technology and Innovate Institute. Through a multi-platform desktop application, users will be able to manage their debts in an organized and simple manner, while also learning more about financial education through digital content and educational materials provided within the application.",
-    "about.image": "Image about the Ugrow, represents yours goal",
+    "about.title": "What is Ugrow?",
+    "about.description": "Ugrow is an academic project by Guilherme Veiga Pedromilo through ICETI. Through a multi-platform desktop application, users will be able to manage their finances in an organized and simple manner, while also learning more about financial education through digital content and educational materials provided within the application.",
+    "about.image": "Image about Ugrow, represents its goal",
 
-    "resource-controls.title": "Manage your Finances Controls",
-    "resource-controls.description": "Create and update your finances controls! Manage month to month your expenses and money",
-    "resource-controls.image": "Image about recourse of Ugrow controls ",
-    "resource-reports.title": "You May Have Reports In Your Hands",
-    "resource-reports.description": "Create PDFs of the your controls or just see important details in the integrated dashboard to your controls",
-    "resource-reports.image": "Image about reports of app",
+    "resource-controls.title": "Manage your Financial Controls",
+    "resource-controls.description": "Create and update your financial controls! Manage your balance and expenses month by month.",
+    "resource-controls.image": "Image about the controls feature of Ugrow",
+    "resource-reports.title": "Have Reports at Your Fingertips",
+    "resource-reports.description": "Create PDFs of your controls or just view important details in the dashboard integrated with your controls.",
+    "resource-reports.image": "Image about the app reports",
     "resource-learning.title": "Learn to Take Care of Your Money",
-    "resource-learning.description": "Learn to manage your money through indicated metrics by app or created by you. Futhermore, the Ugrow indicates important contents and materials to read or watch",
-    "resource-learning.image": "Image about resource of learning",
+    "resource-learning.description": "Learn to manage your money through metrics indicated by the app or created by you. Furthermore, Ugrow indicates important content and materials to read or watch.",
+    "resource-learning.image": "Image about the learning feature",
 
     "contact.title": "Contact Us",
-    "contact.description": "Contact us to what we may help you!",
+    "contact.description": "Contact us so we can help you!",
     "contact.error.email": "Invalid email, enter a valid email (example@gmail.com)",
-    "contact.error.type": "Invalid type of the request, choose a valid option",
+    "contact.error.type": "Invalid request type, choose a valid option",
     "contact.form.email_label": "Email",
-    "contact.form.problem_type_select.info": "Type of the request",
+    "contact.form.problem_type_select.info": "Request type",
     "contact.form.problem_type_select.feedback": "Feedback",
-    "contact.form.problem_type_select.app_problem": "Problems in App",
+    "contact.form.problem_type_select.app_problem": "Problems in the App",
     "contact.form.message_label": "Why are you opening this request?",
-    "contact.form.btn": "Submit the request",
+    "contact.form.btn": "Submit the Request",
 
     "footer_special_info.logo_unicesumar": "UniCesumar Logo",
     "footer_special_info.logo_description": "Institutions Involved",
-    "footer_special_info.message": "I thank God and my parents for everthing and, teachers, friends and institutions for support during this project. 'Therefore encourage one another and build each other up, just as in fact you are doing' - 1 Thessalonians 5:11.",
+    "footer_special_info.message": "I thank God and my parents for everything and, teachers, friends and institutions for their support during this project. 'Therefore encourage one another and build each other up, just as in fact you are doing' - 1 Thessalonians 5:11.",
     "footer_special_info.message_description": "Dedication by Guilherme Veiga Pedromilo",
     "footer_tabs.documentation": "Documentation",
     "footer_tabs.documentation.academic": "Academic",
@@ -69,5 +69,20 @@
     "footer_tabs.help.questions": "Frequently Asked Questions",
     "footer_tabs.app": "About",
     "footer_tabs.app.ugrow": "App",
-    "footer_tabs.app.term": "Service Term"
+    "footer_tabs.app.term": "Terms of Service",
+
+
+    "about_head.title": "About Ugrow",
+    "about_hero.title": "About Ugrow",
+    "about_hero.subtitle": "Ugrow, an innovative solution to manage your personal finances on your computer",
+    
+    "creator.title": "Who is the Creator?",
+    "creator.description": "Guilherme Veiga Pedromilo is a Software Engineering student at UniCesumar (in training), Systems Developer and Electroelectronics Technician by SENAI. Currently, he is an IT Intern in BRM (Business Relationship Management) at ZF Automotive (ZF Group). Furthermore, he is a musician and academic violinist at the Symphony Orchestra of the Heitor Villa-Lobos School (Americana-SP).",
+    "creator.image": "Guilherme Veiga Pedromilo's picture",
+
+    "idea.title": "Idea and Project",
+    "idea.description": "The idea was born from the creator's need to manage his own finances, and from noticing that people talk a lot about financial control but most of them don't actually have a good handle on it. So the goal is to create a desktop app for people to manage their finances and learn a little about how to save money.",
+
+    "institutions.title": "Institutions Involved",
+    "institutions.description": "UniCesumar (Cesumar University) and ICETI (Cesumar Institute of Technology and Innovation) are the institutions involved in this project, contributing with their teachers, content and materials, as well as financial and technical support. They work together as official partners, committed to education, innovation and the scientific community."
 }

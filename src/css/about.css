@@ -1,0 +1,106 @@
+img {
+    max-width: 100%;
+}
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Hero */
+.about_hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-position-y: 50%;
+    background-image: linear-gradient(rgba(28, 28, 28, 0.38)), url(../assets/images/content/world_education.svg);
+    width: 100%;
+    height: 75vh;
+    padding: 3rem 2rem;
+    box-shadow: 0 1px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about_hero h1 {
+    color: var(--light-color);
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+    text-shadow: 0 2px 16px rgba(0, 0, 0, 0.35);
+}
+
+.about_hero p {
+    color: var(--light-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 1024px) {
+    .about_hero {
+        background-position: center center;
+        height: 90vh;
+    }
+
+    .about_hero h1 {
+        font-size: 3.5rem;
+    }
+
+    .about_hero p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .about_hero {
+        height: 65vh;
+        padding: 3rem 1rem;
+    }
+
+    .about_hero h1 {
+        font-size: 2.75rem;
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .about_hero h1 {
+        font-size: 2.15rem;
+    }
+
+    .about_hero p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .about_hero {
+        height: 50vh;
+    }
+
+    .about_hero h1 {
+        font-size: 1.75rem;
+    }
+
+    .about_hero p {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    .about_hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .about_hero p {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-height: 667px) {
+    .about_hero {
+        height: 150vh;
+    }
+}

@@ -2,7 +2,7 @@
 describe("Language Selector", () => {
 
     beforeEach(() => {
-        cy.visit("/");
+        cy.visit("/index.html");
     });
 
     it("should change language to English", () => {

@@ -1,11 +1,11 @@
-// Test e2e to home layout, verify if the elements exists and if them are visibles
+// Test e2e to about page layout, verify if the elements exists and if them are visibles
 describe("Homepage Layout", () => {
 
     beforeEach(() => {
-        cy.visit("/index.html");
+        cy.visit("/about.html");
     });
 
-    it("should load the homepage", () => {
+    it("should load the about page", () => {
         cy.title().should("not.be.empty");
     });
 
@@ -22,8 +22,8 @@ describe("Homepage Layout", () => {
             .should("not.be.visible");
     });
 
-    it("should display the home main content", () => {
-        cy.get('[data-cy="main-content"]')
+    it("should display the about main content", () => {
+        cy.get('[data-cy="about_main-content"]')
             .should("exist")
             .should("be.visible");
     });

@@ -2,7 +2,7 @@
 describe("Navbar", () => {
 
     beforeEach(() => {
-        cy.visit("/");
+        cy.visit("/index.html");
     });
 
     it("navbar should starts to be none", () => {

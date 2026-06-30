@@ -3,7 +3,7 @@ class Header extends HTMLElement {
     this.innerHTML = `
         <header data-cy="header">
             <!-- Logo -->
-            <a class="logo" href="/">
+            <a class="logo" href="/index.html">
                 <img src="./src/assets/images/logos/logo.svg" data-i18n-alt="header.logo">
             </a>
             <!-- Input to search informations -->
