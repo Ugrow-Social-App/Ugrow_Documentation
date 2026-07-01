@@ -73,6 +73,7 @@
 
 
     "about_head.title": "About Ugrow",
+
     "about_hero.title": "About Ugrow",
     "about_hero.subtitle": "Ugrow, an innovative solution to manage your personal finances on your computer",
     
@@ -84,5 +85,11 @@
     "idea.description": "The idea was born from the creator's need to manage his own finances, and from noticing that people talk a lot about financial control but most of them don't actually have a good handle on it. So the goal is to create a desktop app for people to manage their finances and learn a little about how to save money.",
 
     "institutions.title": "Institutions Involved",
-    "institutions.description": "UniCesumar (Cesumar University) and ICETI (Cesumar Institute of Technology and Innovation) are the institutions involved in this project, contributing with their teachers, content and materials, as well as financial and technical support. They work together as official partners, committed to education, innovation and the scientific community."
+    "institutions.description": "UniCesumar (Cesumar University) and ICETI (Cesumar Institute of Technology and Innovation) are the institutions involved in this project, contributing with their teachers, content and materials, as well as financial and technical support. They work together as official partners, committed to education, innovation and the scientific community.",
+
+
+    "documentation_head.title": "Documentation",
+
+    "documentation_hero.title": "Documentation",
+    "documentation_hero.subtitle": "Every documents to help you understand the project are here"
 }

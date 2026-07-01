@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <head-component>
-        <title data-i18n="head.title">Ugrow: Manage Your Finances With Us Free</title>
-        <!-- CSS -->
-        <link rel="stylesheet" href="./src/css/home.css">
-    </head-component>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="head.title">Ugrow: Manage Your Finances With Us Free</title>
+    <link rel="icon" href="./public/favicon/favicon.svg" type="image/svg+xml">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/root.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/home.css">
 </head>
 <body>
     <!-- Header Component -->
     <header-component></header-component>
     <main data-cy="main-content">
         <!-- Hero of website -->
-        <section class="hero">
+        <section class="index_hero">
             <h1 data-i18n="hero.title"></h1>
             <p data-i18n="hero.subtitle"></p>
             <div class="links">
-                <a id="get-started" href="/" data-i18n="hero.link.get_started"></a>
+                <a id="get-started" href="./index.html" data-i18n="hero.link.get_started"></a>
                 <a id="read-more" href="./about.html" data-i18n="hero.link.read_more"></a>
             </div>
         </section>
@@ -61,7 +70,6 @@
     </main>
     <footer-component></footer-component>
     <!-- Components -->
-    <script src="./src/components/head.js"></script>
     <script src="./src/components/header.js"></script>
     <script src="./src/components/navbar.js"></script>
     <script src="./src/components/footer.js"></script>

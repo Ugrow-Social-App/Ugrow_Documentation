@@ -70,7 +70,9 @@
     "footer_tabs.app.ugrow": "Aplicativo",
     "footer_tabs.app.term": "Termos de Serviço",
 
+
     "about_head.title": "Sobre o Ugrow",
+
     "about_hero.title": "Sobre o Ugrow",
     "about_hero.subtitle": "O Ugrow é uma solução inovadora para gerir finanças pessoais no seu computador",
     
@@ -84,5 +86,11 @@
 
     "institutions.title": "Instituições Envolvidas",
     "institutions.description": "A UniCesumar (Universidade Cesumar) e o ICETI (Instituto Cesumar de Tecnologia e Inovação) são as instituições envolvidas neste projeto, contribuindo com seus professores, conteúdos e materiais, suporte técnico e financeiro. Elas trabalham juntas como parceiras oficiais, comprometidas com a educação, a inovação e a comunidade científica.",
-    "institutiions.image": "Imagem que representa as instituições com uma biblioteca"
+    "institutiions.image": "Imagem que representa as instituições com uma biblioteca",
+
+
+    "documentation_head.title": "Documentação",
+    
+    "documentation_hero.title": "Documentação",
+    "documentation_hero.subtitle": "Todos os documentos para ajudar entender o projeto estão aqui"
 }

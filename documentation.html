@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="documentation_head.title">Documentation</title>
+    <link rel="icon" href="./public/favicon/favicon.svg" type="image/svg+xml">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/root.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/documentation.css">
+</head>
+<body>
+    <!-- Header Component -->
+    <header-component></header-component>
+    <main data-cy="documentation_main-content">
+        <!-- Hero Documentation of website -->
+        <section class="common_hero">
+            <h1 data-i18n="documentation_hero.title"></h1>
+            <p data-i18n="documentation_hero.subtitle"></p>
+        </section>
+        <!-- Documentation Section to brings informations documentation the project -->
+        <section id="documentation" class="common_section">
+            <article>
+                <h1 data-i18n="documentation.title"></h1>
+                <p data-i18n="documentation.description"></p>
+            </article>
+            <figure>
+                <img src="./src/assets/images/content/goal.svg" data-i18n-alt="documentation.image">
+            </figure>
+        </section>
+    </main>
+    <footer-component></footer-component>
+    <!-- Components -->
+    <script src="./src/components/header.js"></script>
+    <script src="./src/components/navbar.js"></script>
+    <script src="./src/components/footer.js"></script>
+    <!-- Statements -->
+    <!-- Scripts to change the language -->
+    <script src="./src/js/i18n.js"></script>
+    <!-- Scripts to change the theme -->
+    <script src="./src/js/theme.js"></script>
+    <!-- Scripts to navbar -->
+    <script src="./src/js/navbar.js"></script>
+    <!-- Scripts to move elements in the section -->
+    <script src="./src/js/move_elements.js"></script>
+</body>
+</html>
