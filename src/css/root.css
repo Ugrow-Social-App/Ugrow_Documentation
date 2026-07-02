@@ -35,6 +35,9 @@
     --brightness-start: 100;
     --brightness-end: 0;
 
+    /* Border Color */
+    --color-border: rgba(0, 0, 0, 0.08);
+
     /* Navbar slide */
     --nav-translate: translateX(100%);
 }
@@ -57,6 +60,9 @@ body.dark {
     /* Brightness for SVG filter (dark theme: icons light) */
     --brightness-start: 0;
     --brightness-end: 100;
+
+    --color-border: rgba(255, 255, 255, 0.08);
+
 }
 
 body {
