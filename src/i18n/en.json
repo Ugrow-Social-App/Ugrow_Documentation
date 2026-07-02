@@ -91,5 +91,32 @@
     "documentation_head.title": "Documentation",
 
     "documentation_hero.title": "Documentation",
-    "documentation_hero.subtitle": "Every documents to help you understand the project are here"
+    "documentation_hero.subtitle": "Every documents to help you understand the project are here",
+
+    "article.standard.subtitle_official_documents": "Official Documents and Hyperlinks",
+    "article.standard.subtitle_description_official_documents": "All documents related to this subject are available on GitHub. Access the links below to view more information:",
+
+    "article.overview.title": "Project Overview",
+    "article.overview.subtitle_context": "Context",
+    "article.overview.description_context": "The need to control personal finances is not new. Many people who are unfamiliar with the subject or who have problems managing their finances in life seek to organize them somehow. However, due to limited knowledge in personal finance organization, the high volume of content about the subject on social media, and the advent of technology with countless solutions such as control apps, which are often expensive or complex to use, people end up having great difficulty making a decision and knowing the best way to control their debts throughout the month.",
+    "article.overview.subtitle_goal": "Goal",
+    "article.overview.description_goal": "This academic project aims to solve the problem mentioned in the context above, meaning, through a multi-platform desktop application, people can control their debts in an organized and simple way, and also learn more about financial education through digital content and materials offered within the application.",
+    "article.overview.markdown_file_link": "Project Overview (PT-BR and EN versions)",
+    "article.overview.iceti_doc_link": "Project Submission Document (PT-BR version only)",
+
+    "article.official_documentation.title": "Official Documentation",
+    "article.official_documentation.subtitle_github": "GitHub Organization",
+    "article.official_documentation.description_github": "All academic and technical documentation, files and source code are available through the Ugrow-Social-App organization on GitHub.",
+    "article.official_documentation.subtitle_documentation_repository": "Documentation Repository",
+    "article.official_documentation.description_documentation_repository": "The documentation repository contains all the project's official documents.",
+    "article.official_documentation.subtitle_timeline": "Project Timeline and Backlog",
+    "article.official_documentation.description_timeline": "The project timeline and backlog present all the project's completed, ongoing and future tasks and actions. It is available to everyone.",
+    "article.official_documentation.organization_link": "GitHub Organization",
+    "article.official_documentation.documentation_repository_link": "Documentation Repository",
+    "article.official_documentation.timeline_link": "Project Timeline and Backlog",
+
+    "article.license.title": "License",
+    "article.license.subtitle_documentation_license": "Documentation License",
+    "article.license.description_documentation_license": "The project's documentation is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. This license was chosen so that people have access to and can learn about and distribute the content freely, while still giving credit to the original author (Guilherme Veiga Pedromilo).",
+    "article.license.license_link": "Documentation License (CC BY 4.0, EN only)"
 }
