@@ -1,5 +1,5 @@
 {
-    "head.title": "Ugrow: Controle suas Finanças Pessoais Gratuitamente",
+    "homepage.head.title": "Ugrow: Controle suas Finanças Pessoais Gratuitamente",
 
     "header.logo": "Logotipo Ugrow",
     "header.theme-select.info": "Tema",
@@ -26,24 +26,24 @@
     "navbar.monochrome_logo": "Logotipo Monocromático",
     "navbar_figure_caption": "© Ugrow, 2026",
 
-    "hero.title": "Bem-vindo ao Ugrow",
-    "hero.subtitle": "Aplicando uma solução inovadora para auxiliar e gerir suas finanças pessoais",
-    "hero.link.get_started": "Vamos Começar",
-    "hero.link.read_more": "Leia Mais",
+    "homepage.hero.title": "Bem-vindo ao Ugrow",
+    "homepage.hero.subtitle": "Aplicando uma solução inovadora para auxiliar e gerir suas finanças pessoais",
+    "homepage.hero.link.get_started": "Vamos Começar",
+    "homepage.hero.link.read_more": "Leia Mais",
 
-    "about.title": "O que é o Ugrow?",
-    "about.description": "O Ugrow é um projeto acadêmico (realizado por Guilherme Veiga Pedromilo através do ICETI - Instituto Cesumar de Tecnologia e Inovação) que tem o objetivo de auxiliar as pessoas a controlarem suas finanças, de forma organizada e simples, e também aprender mais sobre educação financeira através de conteúdos e materiais digitais oferecidos dentro do aplicativo.",
-    "about.image": "Imagem sobre o Ugrow, representa sua meta",
+    "homepage.about.title": "O que é o Ugrow?",
+    "homepage.about.description": "O Ugrow é um projeto acadêmico (realizado por Guilherme Veiga Pedromilo através do ICETI - Instituto Cesumar de Tecnologia e Inovação) que tem o objetivo de auxiliar as pessoas a controlarem suas finanças, de forma organizada e simples, e também aprender mais sobre educação financeira através de conteúdos e materiais digitais oferecidos dentro do aplicativo.",
+    "homepage.about.image": "Imagem sobre o Ugrow, representa sua meta",
 
-    "resource-controls.title": "Gerencie seus Controles Financeiros",
-    "resource-controls.description": "Crie e atualize seus controles financeiros! Controle mês a mês o seu saldo e suas despesas.",
-    "resource-controls.image": "Imagem sobre o recurso de controle do aplicativo",
-    "resource-reports.title": "Tenha Relatórios na Sua Mão",
-    "resource-reports.description": "Gere PDFs dos seus controles ou apenas visualize informações importantes no dashboard integrado aos seus controles.",
-    "resource-reports.image": "Imagem sobre os relatórios do aplicativo",
-    "resource-learning.title": "Aprenda a Cuidar do Seu Dinheiro",
-    "resource-learning.description": "Aprenda a gerenciar o seu dinheiro através de métricas indicadas pelo aplicativo ou criadas por você. Além disso, o Ugrow indica conteúdos e materiais importantes para leitura e visualização.",
-    "resource-learning.image": "Imagem sobre o recurso de aprendizagem",
+    "homepage.resource-controls.title": "Gerencie seus Controles Financeiros",
+    "homepage.resource-controls.description": "Crie e atualize seus controles financeiros! Controle mês a mês o seu saldo e suas despesas.",
+    "homepage.resource-controls.image": "Imagem sobre o recurso de controle do aplicativo",
+    "homepage.resource-reports.title": "Tenha Relatórios na Sua Mão",
+    "homepage.resource-reports.description": "Gere PDFs dos seus controles ou apenas visualize informações importantes no dashboard integrado aos seus controles.",
+    "homepage.resource-reports.image": "Imagem sobre os relatórios do aplicativo",
+    "homepage.resource-learning.title": "Aprenda a Cuidar do Seu Dinheiro",
+    "homepage.resource-learning.description": "Aprenda a gerenciar o seu dinheiro através de métricas indicadas pelo aplicativo ou criadas por você. Além disso, o Ugrow indica conteúdos e materiais importantes para leitura e visualização.",
+    "homepage.resource-learning.image": "Imagem sobre o recurso de aprendizagem",
     
     "contact.title": "Contate-nos",
     "contact.description": "Nos contate para que possamos ajudar você",
@@ -71,53 +71,58 @@
     "footer_tabs.app.term": "Termos de Serviço",
 
 
-    "about_head.title": "Sobre o Ugrow",
+    "about.head.title": "Sobre o Ugrow",
 
-    "about_hero.title": "Sobre o Ugrow",
-    "about_hero.subtitle": "O Ugrow é uma solução inovadora para gerir finanças pessoais no seu computador",
+    "about.hero.title": "Sobre o Ugrow",
+    "about.hero.subtitle": "O Ugrow é uma solução inovadora para gerir finanças pessoais no seu computador",
     
-    "creator.title": "Quem é o Criador?",
-    "creator.description": "Guilherme Veiga Pedromilo é estudante de Engenharia de Software pela UniCesumar (em formação), técnico em desenvolvimento de sistemas e eletroeletrônica formado pelo SENAI. Atualmente, é estagiário em TI em BRM (Gestão de Relacionamento com o Negócio) da ZF Automotive (ZF Group). Além disso, é músico e violinista pela Orquestra Sinfônica Acadêmica da Escola Heitor Villa-Lobos (Americana-SP).",
-    "creator.image": "Foto do Guilherme Veiga Pedromilo",
-
-    "idea.title": "Ideia e Projeto",
-    "idea.description": "A ideia nasceu da necessidade do criador de controlar suas finanças, ao perceber que as pessoas falam muito sobre controle financeiro, mas a maioria não tem um bom controle de fato. Então, a meta é criar um aplicativo desktop para as pessoas gerirem suas finanças e aprenderem um pouco sobre como guardar o seu dinheiro.",
-    "idea.image": "Imagem que representa a ideia e o projeto",
-
-    "institutions.title": "Instituições Envolvidas",
-    "institutions.description": "A UniCesumar (Universidade Cesumar) e o ICETI (Instituto Cesumar de Tecnologia e Inovação) são as instituições envolvidas neste projeto, contribuindo com seus professores, conteúdos e materiais, suporte técnico e financeiro. Elas trabalham juntas como parceiras oficiais, comprometidas com a educação, a inovação e a comunidade científica.",
-    "institutiions.image": "Imagem que representa as instituições com uma biblioteca",
-
-
-    "documentation_head.title": "Documentação",
+    "about.about.title": "O que é o Ugrow?",
+    "about.about.description": "O Ugrow é um projeto acadêmico (realizado por Guilherme Veiga Pedromilo através do ICETI - Instituto Cesumar de Tecnologia e Inovação) que tem o objetivo de auxiliar as pessoas a controlarem suas finanças, de forma organizada e simples, e também aprender mais sobre educação financeira através de conteúdos e materiais digitais oferecidos dentro do aplicativo.",
+    "about.about.image": "Imagem sobre o Ugrow, representa sua meta",
     
-    "documentation_hero.title": "Documentação",
-    "documentation_hero.subtitle": "Todos os documentos para ajudar entender o projeto estão aqui",
+    "about.creator.title": "Quem é o Criador?",
+    "about.creator.description": "Guilherme Veiga Pedromilo é estudante de Engenharia de Software pela UniCesumar (em formação), técnico em desenvolvimento de sistemas e eletroeletrônica formado pelo SENAI. Atualmente, é estagiário em TI em BRM (Gestão de Relacionamento com o Negócio) da ZF Automotive (ZF Group). Além disso, é músico e violinista pela Orquestra Sinfônica Acadêmica da Escola Heitor Villa-Lobos (Americana-SP).",
+    "about.creator.image": "Foto do Guilherme Veiga Pedromilo",
 
-    "article.standard.subtitle_official_documents": "Documentos e Hiperlinks Oficiais",
-    "article.standard.subtitle_description_official_documents": "Todos os documentos relacionados a esse assunto estão disponíveis no GitHub. Acesse os links abaixo para visualizar mais informações:",
+    "about.idea.title": "Ideia e Projeto",
+    "about.idea.description": "A ideia nasceu da necessidade do criador de controlar suas finanças, ao perceber que as pessoas falam muito sobre controle financeiro, mas a maioria não tem um bom controle de fato. Então, a meta é criar um aplicativo desktop para as pessoas gerirem suas finanças e aprenderem um pouco sobre como guardar o seu dinheiro.",
+    "about.idea.image": "Imagem que representa a ideia e o projeto",
 
-    "article.overview.title": "Visão Geral do Projeto",
-    "article.overview.subtitle_context": "Contexto",
-    "article.overview.description_context": "A necessidade de controlar as finanças pessoais não vem de hoje. Muitas pessoas leigas no assunto ou que possuem problemas com a gestão das finanças em sua vida buscam organizar elas de alguma forma. Entretanto, devido ao pouco conhecimento em organização de finanças pessoais, alta divulgação de conteúdos sobre o assunto nas redes sociais e o advento da tecnologia com ínumeras soluções como aplicativos de controles, que muitas vezes são caros ou de manuseio complexo, as pessoas acabam tendo muita dificuldade de tomar uma decisão e saber a melhor forma de controlar suas dívidas ao longo do mês.",
-    "article.overview.subtitle_goal": "Objetivo",
-    "article.overview.description_goal": "Este projeto acadêmico tem o objetivo de solucionar o problema citado no contexto acima, ou seja, através de um aplicativo desktop multi-plataforma as pessoas possam controlar suas dívididas, de forma organizada e simples, e também aprender mais sobre educação financeira através de conteúdos e materiais digitais oferecidos dentro do aplicativo.",
-    "article.overview.markdown_file_link": "Visão Geral do Projeto (versão em PT-BR e EN)",
-    "article.overview.iceti_doc_link": "Documento de Submissão do Projeto (versão apenas em PT-BR)",
+    "about.institutions.title": "Instituições Envolvidas",
+    "about.institutions.description": "A UniCesumar (Universidade Cesumar) e o ICETI (Instituto Cesumar de Tecnologia e Inovação) são as instituições envolvidas neste projeto, contribuindo com seus professores, conteúdos e materiais, suporte técnico e financeiro. Elas trabalham juntas como parceiras oficiais, comprometidas com a educação, a inovação e a comunidade científica.",
+    "about.institutiions.image": "Imagem que representa as instituições com uma biblioteca",
 
-    "article.official_documentation.title": "Documentação Oficial",
-    "article.official_documentation.subtitle_github": "Organização no GitHub",
-    "article.official_documentation.description_github": "Toda a documentação acadêmica e técnica, arquivos e código-fonte estão disponíveis através da organização Ugrow-Social-App no GitHub.",
-    "article.official_documentation.subtitle_documentation_repository": "Repositório de Documentação",
-    "article.official_documentation.description_documentation_repository": "O repositório de documentação contém todos os documentos oficiais do projeto.",
-    "article.official_documentation.subtitle_timeline": "Cronograma do Projeto e Backlog",
-    "article.official_documentation.description_timeline": "O cronograma do projeto e o backlog apresentam todas as tarefas e ações realizadas, em andamento e futuras do projeto. Está disponível para todos.",
-    "article.official_documentation.organization_link": "Organização no GitHub",
-    "article.official_documentation.documentation_repository_link": "Repositório da Documentação",
-    "article.official_documentation.timeline_link": "Cronograma do Projeto e Backlog",
 
-    "article.license.title": "Licença",
-    "article.license.subtitle_documentation_license": "Licença da Documentação",
-    "article.license.description_documentation_license": "A documentação do projeto está licenciada sob a licença Creative Commons Attribution 4.0 International (CC BY 4.0). Essa licença foi escolhida para que as pessoas tenham acesso e possam conhecer e distribuir os conteúdos livremente, entretanto com crédito ao autor original (Guilherme Veiga Pedromilo).",
-    "article.license.license_link": "Licença da Documentação (CC BY 4.0, apenas em EN)"
+    "documentation.head.title": "Documentação",
+    
+    "documentation.hero.title": "Documentação",
+    "documentation.hero.subtitle": "Todos os documentos para ajudar entender o projeto estão aqui",
+
+    "documentation.article.standard.subtitle_official_documents": "Documentos e Hiperlinks Oficiais",
+    "documentation.article.standard.subtitle_description_official_documents": "Todos os documentos relacionados a esse assunto estão disponíveis no GitHub. Acesse os links abaixo para visualizar mais informações:",
+
+    "documentation.article.overview.title": "Visão Geral do Projeto",
+    "documentation.article.overview.subtitle_context": "Contexto",
+    "documentation.article.overview.description_context": "A necessidade de controlar as finanças pessoais não vem de hoje. Muitas pessoas leigas no assunto ou que possuem problemas com a gestão das finanças em sua vida buscam organizar elas de alguma forma. Entretanto, devido ao pouco conhecimento em organização de finanças pessoais, alta divulgação de conteúdos sobre o assunto nas redes sociais e o advento da tecnologia com ínumeras soluções como aplicativos de controles, que muitas vezes são caros ou de manuseio complexo, as pessoas acabam tendo muita dificuldade de tomar uma decisão e saber a melhor forma de controlar suas dívidas ao longo do mês.",
+    "documentation.article.overview.subtitle_goal": "Objetivo",
+    "documentation.article.overview.description_goal": "Este projeto acadêmico tem o objetivo de solucionar o problema citado no contexto acima, ou seja, através de um aplicativo desktop multi-plataforma as pessoas possam controlar suas dívididas, de forma organizada e simples, e também aprender mais sobre educação financeira através de conteúdos e materiais digitais oferecidos dentro do aplicativo.",
+    "documentation.article.overview.markdown_file_link": "Visão Geral do Projeto (versão em PT-BR e EN)",
+    "documentation.article.overview.iceti_doc_link": "Documento de Submissão do Projeto (versão apenas em PT-BR)",
+
+    "documentation.article.official_doc.title": "Documentação Oficial",
+    "documentation.article.official_doc.subtitle_github": "Organização no GitHub",
+    "documentation.article.official_doc.description_github": "Toda a documentação acadêmica e técnica, arquivos e código-fonte estão disponíveis através da organização Ugrow-Social-App no GitHub.",
+    "documentation.article.official_doc.subtitle_documentation.repository": "Repositório de Documentação",
+    "documentation.article.official_doc.description_documentation.repository": "O repositório de documentação contém todos os documentos oficiais do projeto.",
+    "documentation.article.official_doc.subtitle_timeline": "Cronograma do Projeto e Backlog",
+    "documentation.article.official_doc.description_timeline": "O cronograma do projeto e o backlog apresentam todas as tarefas e ações realizadas, em andamento e futuras do projeto. Está disponível para todos.",
+    "documentation.article.official_doc.organization_link": "Organização no GitHub",
+    "documentation.article.official_doc.documentation.repository_link": "Repositório da Documentação",
+    "documentation.article.official_doc.timeline_link": "Cronograma do Projeto e Backlog",
+    "documentation.article.official_doc.manual_link": "Manual do Usuário (versão em PT-BR e EN)",
+
+    "documentation.article.license.title": "Licença",
+    "documentation.article.license.subtitle_documentation.license": "Licença da Documentação",
+    "documentation.article.license.description_documentation.license": "A documentação do projeto está licenciada sob a licença Creative Commons Attribution 4.0 International (CC BY 4.0). Essa licença foi escolhida para que as pessoas tenham acesso e possam conhecer e distribuir os conteúdos livremente, entretanto com crédito ao autor original (Guilherme Veiga Pedromilo).",
+    "documentation.article.license.license_link": "Licença da Documentação (CC BY 4.0, apenas em EN)"
 }

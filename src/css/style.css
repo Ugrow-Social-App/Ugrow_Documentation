@@ -723,7 +723,7 @@ footer .footer_tabs li ul li a:hover {
     }
 
     nav.active {
-        min-width: 100vw;
+        width: 95%;
     }
 
     nav.active h3 {
