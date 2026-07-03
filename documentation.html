@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-i18n="documentation_head.title">Documentation</title>
+    <title data-i18n="documentation.head.title">Documentation</title>
     <link rel="icon" href="./public/favicon/favicon.svg" type="image/svg+xml">
     
     <!-- Google Fonts -->
@@ -20,109 +20,114 @@
     <!-- Header Component -->
     <header-component></header-component>
     <main data-cy="documentation_main-content">
-        <!-- Hero Documentation of website -->
+        <!-- Documentation Hero of website -->
         <section class="common_hero">
-            <h1 data-i18n="documentation_hero.title"></h1>
-            <p data-i18n="documentation_hero.subtitle"></p>
+            <h1 data-i18n="documentation.hero.title"></h1>
+            <p data-i18n="documentation.hero.subtitle"></p>
         </section>
         <div class="content">
-            <aside class="common_aside">
+            <aside data-cy="aside" class="common_aside">
                 <ul>
                     <li>
-                        <a href="#overview_title" data-i18n="article.overview.title"></a>
-                        <ol>
-                            <li><a href="#overview_context" data-i18n="article.overview.subtitle_context"></a></li>
-                            <li><a href="#overview_goal" data-i18n="article.overview.subtitle_goal"></a></li>
-                            <li><a href="#overview_official_documents" data-i18n="article.standard.subtitle_official_documents"></a></li>
-                        </ol>
+                        <a href="#overview_title" data-i18n="documentation.article.overview.title"></a>
+                        <ul class="common_aside_sublist">
+                            <li><a href="#overview_context" data-i18n="documentation.article.overview.subtitle_context"></a></li>
+                            <li><a href="#overview_goal" data-i18n="documentation.article.overview.subtitle_goal"></a></li>
+                            <li><a href="#overview_official_documents" data-i18n="documentation.article.standard.subtitle_official_documents"></a></li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="#official_documentation_title" data-i18n="article.official_documentation.title"></a>
-                        <ol>
-                            <li><a href="#official_documentation_github" data-i18n="article.official_documentation.subtitle_github"></a></li>
-                            <li><a href="#official_documentation_documentation_repository" data-i18n="article.official_documentation.subtitle_documentation_repository"></a></li>
-                            <li><a href="#official_documentation_timeline" data-i18n="article.official_documentation.subtitle_timeline"></a></li>
-                            <li><a href="#official_documentation" data-i18n="article.standard.subtitle_official_documents"></a></li>
-                        </ol>
+                        <a href="#official_doc_title" data-i18n="documentation.article.official_doc.title"></a>
+                        <ul class="common_aside_sublist">
+                            <li><a href="#official_doc_github" data-i18n="documentation.article.official_doc.subtitle_github"></a></li>
+                            <li><a href="#official_doc_documentation_repository" data-i18n="documentation.article.official_doc.subtitle_documentation.repository"></a></li>
+                            <li><a href="#official_doc_timeline" data-i18n="documentation.article.official_doc.subtitle_timeline"></a></li>
+                            <li><a href="#official_doc" data-i18n="documentation.article.standard.subtitle_official_documents"></a></li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="#license_title" data-i18n="article.license.title"></a>
-                        <ol>
-                            <li><a href="#license_documentation_license" data-i18n="article.license.subtitle_documentation_license"></a></li>
-                            <li><a href="#official_documentation_subtitle" data-i18n="article.official_documentation.subtitle_documentation_repository"></a></li>
-                            <li><a href="#license_official_documents" data-i18n="article.standard.subtitle_official_documents"></a></li>
-                        </ol>
+                        <a href="#license_title" data-i18n="documentation.article.license.title"></a>
+                        <ul class="common_aside_sublist">
+                            <li><a href="#license_documentation_license" data-i18n="documentation.article.license.subtitle_documentation.license"></a></li>
+                            <li><a href="#license_official_documents" data-i18n="documentation.article.standard.subtitle_official_documents"></a></li>
+                        </ul>
                     </li>
                 </ul>
             </aside>
             <!-- Documentation Section to brings informations about the project -->
             <section id="documentation" class="documentation_section">
                 <article id="overview_article" class="documentation_article">
-                    <h1 id="overview_title" data-i18n="article.overview.title"></h1>
-                    <h2 id="overview_context" data-i18n="article.overview.subtitle_context"></h2>
-                    <p data-i18n="article.overview.description_context"></p>
-                    <h2 id="overview_goal" data-i18n="article.overview.subtitle_goal"></h2>
-                    <p data-i18n="article.overview.description_goal"></p>
-                    <h2 id="overview_official_documents" data-i18n="article.standard.subtitle_official_documents"></h2>
-                    <p data-i18n="article.standard.description_official_documents"></p>
+                    <h1 id="overview_title" data-i18n="documentation.article.overview.title"></h1>
+                    <h2 id="overview_context" data-i18n="documentation.article.overview.subtitle_context"></h2>
+                    <p data-i18n="documentation.article.overview.description_context"></p>
+                    <h2 id="overview_goal" data-i18n="documentation.article.overview.subtitle_goal"></h2>
+                    <p data-i18n="documentation.article.overview.description_goal"></p>
+                    <h2 id="overview_official_documents" data-i18n="documentation.article.standard.subtitle_official_documents"></h2>
+                    <p data-i18n="documentation.article.standard.description_official_documents"></p>
                     <ol>
                         <li>
                             <a 
                             href="https://github.com/Ugrow-Social-App/Ugrow_Documentation/blob/main/public/docs/project-overview/project-context.md" 
                             target="_blank" rel="noopener noreferrer"
-                            data-i18n="article.overview.markdown_file_link">
+                            data-i18n="documentation.article.overview.markdown_file_link">
                         </a></li>
                         <li>
                             <a 
-                            href="https://github.com/Ugrow-Social-App/Ugrow_Documentation/blob/main/public/docs/project-overview/project-submission(pt-br).pdf" 
+                            href="./public/docs/project-overview/project-submission(pt-br).pdf" 
                             target="_blank" rel="noopener noreferrer"
-                            data-i18n="article.overview.iceti_doc_link">
+                            data-i18n="documentation.article.overview.iceti_doc_link">
                         </a></li>
                     </ol>
                 </article>
-                <article id="official_documentation_article" class="documentation_article">
-                    <h1 id="official_documentation_title" data-i18n="article.official_documentation.title"></h1>
-                    <h2 id="official_documentation_subtitle_github" data-i18n="article.official_documentation.subtitle_github"></h2>
-                    <p data-i18n="article.official_documentation.description_github"></p>
-                    <h2 id="official_documentation_subtitle_documentation_repository" data-i18n="article.official_documentation.subtitle_documentation_repository"></h2>
-                    <p data-i18n="article.official_documentation.description_documentation_repository"></p>
-                    <h2 id="official_documentation_subtitle_timeline" data-i18n="article.official_documentation.subtitle_timeline"></h2>
-                    <p data-i18n="article.official_documentation.description_timeline"></p>
-                    <h2 id="official_documents" data-i18n="article.standard.subtitle_official_documents"></h2>
-                    <p data-i18n="article.standard.description_official_documents"></p>
+                <article id="official_doc_article" class="documentation_article">
+                    <h1 id="official_doc_title" data-i18n="documentation.article.official_doc.title"></h1>
+                    <h2 id="official_doc_subtitle_github" data-i18n="documentation.article.official_doc.subtitle_github"></h2>
+                    <p data-i18n="documentation.article.official_doc.description_github"></p>
+                    <h2 id="official_doc_subtitle_documentation_repository" data-i18n="documentation.article.official_doc.subtitle_documentation_repository"></h2>
+                    <p data-i18n="documentation.article.official_doc.description_documentation_repository"></p>
+                    <h2 id="official_doc_subtitle_timeline" data-i18n="documentation.article.official_doc.subtitle_timeline"></h2>
+                    <p data-i18n="documentation.article.official_doc.description_timeline"></p>
+                    <h2 id="official_documents" data-i18n="documentation.article.standard.subtitle_official_documents"></h2>
+                    <p data-i18n="documentation.article.standard.description_official_documents"></p>
                     <ol>
                         <li>
                             <a 
                             href="https://github.com/Ugrow-Social-App" 
                             target="_blank" rel="noopener noreferrer"
-                            data-i18n="article.official_documentation.organization_link">
+                            data-i18n="documentation.article.official_doc.organization_link">
                         </a></li>
                         <li>
                             <a 
                             href="https://github.com/Ugrow-Social-App/Ugrow_Documentation" 
                             target="_blank" rel="noopener noreferrer"
-                            data-i18n="article.official_documentation.documentation_repository_link">
+                            data-i18n="documentation.article.official_doc.documentation.repository_link">
                         </a></li>
                         <li>
                             <a 
                             href="https://github.com/orgs/Ugrow-Social-App/projects/2" 
                             target="_blank" rel="noopener noreferrer"
-                            data-i18n="article.official_documentation.timeline_link">
+                            data-i18n="documentation.article.official_doc.timeline_link">
+                        </a></li>
+                        <li>
+                            <a 
+                            href="https://github.com/Ugrow-Social-App/Ugrow_Documentation/blob/main/public/docs/user-manual/user-manual.md" 
+                            target="_blank" rel="noopener noreferrer"
+                            data-i18n="documentation.article.official_doc.manual_link">
                         </a></li>
                     </ol>
                 </article>
                 <article id="license_article" class="documentation_article">
-                    <h1 id="license_title" data-i18n="article.license.title"></h1>
-                    <h2 id="license_subtitle" data-i18n="article.license.subtitle_documentation_license"></h2>
-                    <p data-i18n="article.license.description_documentation_license"></p>
-                    <h2 id="license_official_documents" data-i18n="article.standard.subtitle_official_documents"></h2>
-                    <p data-i18n="article.standard.description_official_documents"></p>
+                    <h1 id="license_title" data-i18n="documentation.article.license.title"></h1>
+                    <h2 id="license_subtitle" data-i18n="documentation.article.license.subtitle_documentation_license"></h2>
+                    <p data-i18n="documentation.article.license.description_documentation_license"></p>
+                    <h2 id="license_official_documents" data-i18n="documentation.article.standard.subtitle_official_documents"></h2>
+                    <p data-i18n="documentation.article.standard.description_official_documents"></p>
                     <ol>
                         <li>
                             <a 
                             href="https://github.com/Ugrow-Social-App/Ugrow_Documentation/blob/main/LICENSE" 
                             target="_blank" rel="noopener noreferrer"
-                            data-i18n="article.license.license_link">
+                            data-i18n="documentation.article.license.license_link">
                         </a></li>
                     </ol>
                 </article>

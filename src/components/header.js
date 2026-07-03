@@ -7,11 +7,11 @@ class Header extends HTMLElement {
                 <img src="./src/assets/images/logos/logo.svg" data-i18n-alt="header.logo">
             </a>
             <!-- Input to search informations -->
-            <form class="input-container">
+            <form id="search_content" class="input-container">
                 <button type="submit">
                     <img src="./src/assets/icons/search_icon.svg" alt="Search Icon">
                 </button>
-                <input id="search-input" type="text" placeholder="Search" autoComplete="on">
+                <input id="search-input" type="text" placeholder="Search" autoComplete="off">
             </form>
             <!-- Select to change the theme -->
             <select id="theme-select" onchange="setTheme(this.value)" data-cy="theme-toggle">

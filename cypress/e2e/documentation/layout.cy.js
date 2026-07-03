@@ -1,11 +1,11 @@
-// Test to about page layout, verify if the elements exists and if them are visibles
-describe("About Page Layout", () => {
+// Test to page layout, verify if the elements exists and if them are visibles
+describe("Documentation Page Layout", () => {
 
     beforeEach(() => {
-        cy.visit("/about.html");
+        cy.visit("/documentation.html");
     });
 
-    it("should load the about page", () => {
+    it("should load the documentation page", () => {
         cy.title().should("not.be.empty");
     });
 
@@ -22,8 +22,8 @@ describe("About Page Layout", () => {
             .should("not.be.visible");
     });
 
-    it("should display the about main content", () => {
-        cy.get('[data-cy="about_main-content"]')
+    it("should display the page main content", () => {
+        cy.get('[data-cy="documentation_main-content"]')
             .should("exist")
             .should("be.visible");
     });
