@@ -1,30 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <head-component>
-        <title data-i18n="head.title">Ugrow: Manage Your Finances With Us Free</title>
-        <!-- CSS -->
-        <link rel="stylesheet" href="./src/css/home.css">
-    </head-component>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="index.head.title">Ugrow: Manage Your Finances With Us Free</title>
+    <link rel="icon" href="./public/favicon/favicon.svg" type="image/svg+xml">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/root.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/home.css">
+    <link rel="stylesheet" href="./src/css/presentation_layout.css">
 </head>
 <body>
     <!-- Header Component -->
     <header-component></header-component>
     <main data-cy="main-content">
         <!-- Hero of website -->
-        <section class="hero">
-            <h1 data-i18n="hero.title"></h1>
-            <p data-i18n="hero.subtitle"></p>
+        <section class="index_hero">
+            <h1 data-i18n="index.hero.title"></h1>
+            <p data-i18n="index.hero.subtitle"></p>
             <div class="links">
-                <a id="get-started" href="/" data-i18n="hero.link.get_started"></a>
-                <a id="read-more" href="./about.html" data-i18n="hero.link.read_more"></a>
+                <a id="get-started" href="./index.html" data-i18n="index.hero.link.get_started"></a>
+                <a id="read-more" href="./about.html" data-i18n="index.hero.link.read_more"></a>
             </div>
         </section>
         <!-- About Section to brings informations about the project -->
         <section id="about" class="common_section">
             <article>
-                <h1 data-i18n="about.title"></h1>
-                <p data-i18n="about.description"></p>
+                <h1 data-i18n="index.about.title"></h1>
+                <p data-i18n="index.about.description"></p>
             </article>
             <figure>
                 <img src="./src/assets/images/content/goal.svg" data-i18n-alt="about.image">
@@ -33,8 +43,8 @@
         <!-- The below sections bring informations about resources of app -->
         <section id="resource-controls" class="common_section">
             <article>
-                <h1 data-i18n="resource-controls.title"></h1>
-                <p data-i18n="resource-controls.description"></p>
+                <h1 data-i18n="index.resource-controls.title"></h1>
+                <p data-i18n="index.resource-controls.description"></p>
             </article>
             <figure>
                 <img src="./src/assets/images/content/manage_finances.svg" data-i18n-alt="resource-controls.image">
@@ -42,8 +52,8 @@
         </section>
         <section id="resource-reports" class="common_section">
             <article>
-                <h1 data-i18n="resource-reports.title"></h1>
-                <p data-i18n="resource-reports.description"></p>
+                <h1 data-i18n="index.resource-reports.title"></h1>
+                <p data-i18n="index.resource-reports.description"></p>
             </article>
             <figure>
                 <img src="./src/assets/images/content/reports.svg" data-i18n-alt="resource-reports.image">
@@ -51,8 +61,8 @@
         </section>
         <section id="resource-learning" class="common_section">
             <article>
-                <h1 data-i18n="resource-learning.title"></h1>
-                <p data-i18n="resource-learning.description"></p>
+                <h1 data-i18n="index.resource-learning.title"></h1>
+                <p data-i18n="index.resource-learning.description"></p>
             </article>
             <figure>
                 <img src="./src/assets/images/content/world_education.svg" data-i18n-alt="resource-learning.image">
@@ -61,10 +71,9 @@
     </main>
     <footer-component></footer-component>
     <!-- Components -->
-    <script src="./src/components/head.js"></script>
     <script src="./src/components/header.js"></script>
     <script src="./src/components/navbar.js"></script>
-    <script src="./src/components/footer.js"></script>
+    <script src="./src/components/footer.js"></script>       
     <!-- Statements -->
     <!-- Hero Section -->
     <script src="./src/js/hero_backgroud.js"></script>
@@ -74,6 +83,9 @@
     <script src="./src/js/theme.js"></script>
     <!-- Scripts to navbar -->
     <script src="./src/js/navbar.js"></script>
+    <!-- Search Content -->
+    <script src="./src/js/search.js"></script>
+    <!-- Responsive Layout -->
     <script src="./src/js/move_elements.js"></script>
 </body>
 </html>

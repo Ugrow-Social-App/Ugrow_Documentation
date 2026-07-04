@@ -1,4 +1,4 @@
-// Test e2e to home layout, verify if the elements exists and if them are visibles
+// Test to home layout, verify if the elements exists and if them are visibles
 describe("Homepage Layout", () => {
 
     beforeEach(() => {

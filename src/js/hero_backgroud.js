@@ -10,7 +10,7 @@ const images = {
 }
 
 // Hero element (section)
-const hero = document.getElementsByClassName("hero")[0];
+const hero = document.getElementsByClassName("index_hero")[0];
 
 // Select a random image
 const selectARandonImage = () => {
