@@ -31,6 +31,18 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
+      - name: Generate EmailJS config
+        run: |
+          mkdir -p src/config
+
+          cat > src/config/email.config.js <<EOF
+          window.EMAIL_CONFIG = {
+            PUBLIC_KEY: "${{ secrets.EMAILJS_PUBLIC_KEY }}",
+            SERVICE_ID: "${{ secrets.EMAILJS_SERVICE_ID }}",
+            TEMPLATE_ID: "${{ secrets.EMAILJS_TEMPLATE_ID }}"
+          };
+          EOF
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:

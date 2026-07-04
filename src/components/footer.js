@@ -40,7 +40,7 @@ class Footer extends HTMLElement {
                     <h4 data-i18n="footer.footer_tabs.app"></h4>
                     <ul>
                         <li><a href="./about.html" data-i18n="footer.footer_tabs.app.ugrow"></a></li>
-                        <li><a href="./about.html" data-i18n="footer.footer_tabs.app.license"></a></li>
+                        <li><a href="./about.html" data-i18n="footer.footer_tabs.app.institutions"></a></li>
                     </ul>
                 </li>
             </ul>

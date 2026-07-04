@@ -67,6 +67,7 @@
     "contact.hero.subtitle": "Estamos aqui para ajudar — envie uma mensagem ou confira as perguntas frequentes abaixo",
     "contact.error.email": "E-mail inválido, insira um e-mail válido (example@gmail.com)",
     "contact.error.type": "Tipo de requisição inválida, escolha uma opção válida",
+    "contact.error.emailjs": "Não foi possível enviar sua mensagem. Tente novamente mais tarde",
     "contact.form.email_label": "E-mail",
     "contact.form.problem_type_select.info": "Tipo de requisição",
     "contact.form.problem_type_select.feedback": "Avaliação/Comentário",

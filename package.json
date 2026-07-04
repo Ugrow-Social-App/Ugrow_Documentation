@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "live-server --port=5500 --no-browser",
+    "dev": "http-server . -p 5500 -c-1",
     "cy:open": "cypress open",
     "cy:run": "cypress run"
+
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,9 @@
   "homepage": "https://github.com/Ugrow-Social-App/Ugrow_Documentation#readme",
   "devDependencies": {
     "cypress": "^15.18.0",
-    "live-server": "^1.2.2"
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1"
   }
 }

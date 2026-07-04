@@ -42,14 +42,13 @@
                                 <option value="feedback" data-i18n="contact.form.problem_type_select.feedback"></option>
                                 <option value="problem" data-i18n="contact.form.problem_type_select.app_problem"></option>
                             </select>
+                            <!-- Get the datetime -->
+                            <input type="hidden" name="time" id="time">
                             <label for="input_message" data-i18n="contact.form.message_label"></label>
                             <textarea name="message" id="input_message"></textarea>
                             <button id="btn-contact" type="submit" data-i18n="contact.form.btn"></button>
                         </form>
                     </section>
-
-                    <!-- Scripts to form works -->
-                    <script src="./src/js/contact_form.js"></script>
                 </article>
                 <article class="documentation_article" id="faq_article">
                     <h1 data-i18n="contact.faq.title"></h1>
@@ -108,5 +107,10 @@
     <script src="./src/js/move_elements.js"></script>
     <!-- FAQ accordion interactivity -->
     <script src="./src/js/contact_faq.js"></script>
+    <!-- API EmailJS and Form js -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="./src/config/email.config.js"></script>
+    <script src="./src/api/email.js"></script>
+    <script src="./src/js/contact_form.js"></script>
 </body>
 </html>

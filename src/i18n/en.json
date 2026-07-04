@@ -66,6 +66,7 @@
     "contact.hero.subtitle": "We're here to help — send us a message or check the FAQ below",
     "contact.error.email": "Invalid email, enter a valid email (example@gmail.com)",
     "contact.error.type": "Invalid request type, choose a valid option",
+    "contact.error.emailjs": "Unable to send your message. Please try again later.",
     "contact.form.email_label": "Email",
     "contact.form.problem_type_select.info": "Request type",
     "contact.form.problem_type_select.feedback": "Feedback",
