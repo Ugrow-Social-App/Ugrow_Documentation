@@ -1,4 +1,5 @@
 const form_contact = document.getElementById("contact_form");
+const submitButton = form_contact.querySelector("button[type='submit']");
 
 form_contact.addEventListener("submit", function(event) {
     event.preventDefault();
@@ -7,8 +8,21 @@ form_contact.addEventListener("submit", function(event) {
     if (!data_verify(Object.fromEntries(dataForm))) {
         console.warn("Error: couldn't submit the form, because the data are invalid");
     } else {
-        alert("Sucess!");
-        form_contact.reset();
+        // Disable button to avoid multiple sends
+        submitButton.disabled = true;
+        document.getElementById("time").value = new Date().toLocaleString();
+        sendContactEmail(form_contact)
+        .then(() => {
+            console.log("Success: email sent.");
+            alert("Sucess! Request sent.")
+            form_contact.reset();
+            // Enable again
+            submitButton.disabled = false;
+        })
+        .catch((error) => {
+            console.error(error);
+            setErrorFormContact("contact.error.emailjs");
+        });
     }
 });
 
