@@ -124,5 +124,46 @@
     "documentation.article.license.title": "License",
     "documentation.article.license.subtitle_documentation_license": "Documentation License",
     "documentation.article.license.description_documentation_license": "The project's documentation is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. This license was chosen so that people have access to and can learn about and distribute the content freely, while still giving credit to the original author (Guilherme Veiga Pedromilo).",
-    "documentation.article.license.license_link": "Documentation License (CC BY 4.0, EN only)"
+    "documentation.article.license.license_link": "Documentation License (CC BY 4.0, EN only)",
+
+
+    "downloads.head.title": "Downloads",
+
+    "downloads.hero.title": "Downloads",
+    "downloads.hero.subtitle": "Get the latest version of Ugrow for your platform",
+
+    "downloads.article.current.title": "Current Release",
+    "downloads.article.current.subtitle_quick": "Quick Downloads",
+    "downloads.article.current.subtitle_details": "Release Details",
+    "downloads.article.current.quick_windows": "Download for Windows",
+    "downloads.article.current.quick_macos": "Download for macOS",
+    "downloads.article.current.quick_linux": "Download for Linux",
+
+    "downloads.article.history.title": "Version History",
+    "downloads.article.history.subtitle_intro": "Changelog",
+    "downloads.article.history.subtitle_2026": "2026 Releases",
+    "downloads.article.history.subtitle_2025": "2025 Releases",
+
+    "downloads.article.requirements.title": "System Requirements",
+    "downloads.article.requirements.subtitle_intro": "Minimum and Recommended Specifications",
+    "downloads.article.requirements.subtitle_minimum": "Minimum Requirements",
+    "downloads.article.requirements.subtitle_recommended": "Recommended Requirements",
+
+    "downloads.table.header_platform": "Platform",
+    "downloads.table.header_version": "Version",
+    "downloads.table.header_date": "Release Date",
+    "downloads.table.header_size": "Size",
+    "downloads.table.header_action": "Action",
+    "downloads.table.header_notes": "Notes",
+    "downloads.table.header_os": "Operating System",
+    "downloads.table.header_minimum": "Minimum",
+    "downloads.table.header_recommended": "Recommended",
+    "downloads.table.download_label": "Download",
+    "downloads.table.empty_state": "No information available at the moment.",
+    "downloads.table.unavailable": "Not available",
+
+    "downloads.history.v1_4_2": "Performance improvements and bug fixes.",
+    "downloads.history.v1_3_0": "Added monthly reports export in PDF.",
+    "downloads.history.v1_2_1": "Fixed a dashboard synchronization bug.",
+    "downloads.history.v1_0_0": "Initial public release."
 }
