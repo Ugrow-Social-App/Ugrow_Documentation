@@ -1,0 +1,209 @@
+/* CONTACT PAGE LAYOUT */
+/* Reuses .content / .documentation_section / article from documentation_layout.css.
+   Since this page has no aside, the section is centered instead of split 80/20 */
+
+#contact_page_content {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem 2rem 5rem 2rem;
+}
+
+/* The short intro paragraph reads better left-aligned, without the
+   documentation-style justified text and indentation */
+#contact > p,
+#faq_article > p {
+    text-align: left;
+    text-indent: 0;
+    margin-left: 0;
+}
+
+/* CONTACT FORM */
+#contact_form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    max-width: 640px;
+    margin-top: 1.5rem;
+}
+
+#contact_form label {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--text-color);
+}
+
+#contact_form input,
+#contact_form select,
+#contact_form textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: inherit;
+    font-size: 1rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#contact_form input:focus,
+#contact_form select:focus,
+#contact_form textarea:focus {
+    outline: none;
+    border-color: var(--blue-color);
+    box-shadow: 0 0 0 3px rgba(13, 126, 180, 0.15);
+}
+
+#contact_form select {
+    cursor: pointer;
+}
+
+#contact_form textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+#error_msg_contact_form {
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    background-color: rgba(189, 34, 77, 0.1);
+    border: 1px solid rgba(189, 34, 77, 0.3);
+    color: var(--red-color);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+#btn-contact {
+    align-self: flex-start;
+    padding: 0.85rem 2.25rem;
+    border: none;
+    border-radius: 8px;
+    background: var(--accent-gradient);
+    color: var(--light-color);
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.2s ease;
+}
+
+#btn-contact:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(13, 126, 180, 0.35);
+}
+
+/* FAQ - ACCORDION */
+.faq_list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.faq_item {
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    background-color: var(--bg-surface);
+    overflow: hidden;
+    transition: border-color 0.2s ease;
+}
+
+.faq_item:hover {
+    border-color: var(--blue-color);
+}
+
+.faq_question {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    background: none;
+    border: none;
+    text-align: left;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.faq_question:hover {
+    color: var(--blue-color);
+}
+
+.faq_question::after {
+    content: '⌄';
+    flex-shrink: 0;
+    font-size: 1.3rem;
+    line-height: 1;
+    color: var(--blue-color);
+    transition: transform 0.2s ease;
+}
+
+.faq_item.open .faq_question::after {
+    transform: rotate(180deg);
+}
+
+.faq_answer {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 1.25rem;
+    transition: max-height 0.3s ease, padding 0.2s ease;
+}
+
+.faq_item.open .faq_answer {
+    padding-bottom: 1.1rem;
+}
+
+.faq_answer p {
+    margin: 0;
+    color: var(--text-neutral-color);
+    font-size: 0.95rem;
+    line-height: 1.5rem;
+}
+
+/* @MEDIA QUERIES - RESPONSIVE LAYOUT */
+/* Responsive Design - @Media Queries */
+@media screen and (max-width: 955px) {
+    #contact_page_content {
+        padding: 2rem 1.5rem 4rem 1.5rem;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    #contact_form {
+        gap: 1rem;
+    }
+
+    #contact_form input,
+    #contact_form select,
+    #contact_form textarea {
+        font-size: 0.9rem;
+        padding: 0.65rem 0.9rem;
+    }
+
+    .faq_question {
+        font-size: 0.9rem;
+        padding: 0.85rem 1rem;
+    }
+
+    .faq_answer p {
+        font-size: 0.85rem;
+    }
+}
+
+@media screen and (max-width: 478px) {
+    #btn-contact {
+        width: 100%;
+        text-align: center;
+    }
+
+    .faq_question {
+        font-size: 0.8rem;
+        padding: 0.75rem 0.9rem;
+    }
+}

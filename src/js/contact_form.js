@@ -36,5 +36,5 @@ const setErrorFormContact = (err_msg) => {
         err.removeAttribute("data-i18n");
     }
     err.setAttribute("data-i18n", err_msg);
-    getLanguage();
+    putLanguage();
 }

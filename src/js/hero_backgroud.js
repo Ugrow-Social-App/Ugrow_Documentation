@@ -7,6 +7,7 @@ const images = {
     4: "img-4.svg",
     5: "img-5.svg",
     6: "img-6.svg",
+    7: "img-7.svg"
 }
 
 // Hero element (section)
