@@ -27,8 +27,8 @@ class Navbar extends HTMLElement {
                     <h4 data-i18n="navbar.navbar_tabs.help"></h4>
                     <ul>
                         <li>
-                            <a href="" data-i18n="navbar.navbar_tabs.help.contact"></a>
-                            <a href="" data-i18n="navbar.navbar_tabs.help.questions"></a>
+                            <a href="./contact.html" data-i18n="navbar.navbar_tabs.help.contact"></a>
+                            <a href="./contact.html" data-i18n="navbar.navbar_tabs.help.questions"></a>
                         </li>
                     </ul>
                 </li>

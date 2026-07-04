@@ -32,8 +32,8 @@ class Footer extends HTMLElement {
                 <li>
                     <h4 data-i18n="footer.footer_tabs.help"></h4>
                     <ul>
-                        <li><a href="" data-i18n="footer.footer_tabs.help.contact"></a></li>
-                        <li><a href="" data-i18n="footer.footer_tabs.help.questions"></a></li>
+                        <li><a href="./contact.html" data-i18n="footer.footer_tabs.help.contact"></a></li>
+                        <li><a href="./contact.html" data-i18n="footer.footer_tabs.help.questions"></a></li>
                     </ul>
                 </li>
                 <li>
