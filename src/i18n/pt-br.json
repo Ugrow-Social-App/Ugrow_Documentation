@@ -1,6 +1,4 @@
 {
-    "index.head.title": "Ugrow: Controle suas Finanças Pessoais Gratuitamente",
-
     "header.logo": "Logotipo Ugrow",
     "header.theme-select.info": "Tema",
     "header.theme-select.light": "Claro",
@@ -27,6 +25,22 @@
     "navbar.monochrome_logo": "Logotipo Monocromático",
     "navbar.navbar_figure_caption": "© Ugrow, 2026",
 
+    "footer.footer_special_info.logo_unicesumar": "Logotipo UniCesumar",
+    "footer.footer_special_info.logo_description": "Instituições Envolvidas",
+    "footer.footer_special_info.message": "Agradeço a Deus e aos meus pais por tudo e, aos professores, amigos e instituições pelo auxílio e apoio durante esse projeto. 'Por isso, exortem-se e edifiquem-se uns aos outros, como de fato vocês estão fazendo' - 1 Tessalonicenses 5:11.",
+    "footer.footer_special_info.message_description": "Dedicatória de Guilherme Veiga Pedromilo",
+    "footer.footer_tabs.documentation": "Documentação",
+    "footer.footer_tabs.documentation.academic": "Acadêmica",
+    "footer.footer_tabs.documentation.manual": "Manual",
+    "footer.footer_tabs.help": "Ajuda",
+    "footer.footer_tabs.help.contact": "Contato",
+    "footer.footer_tabs.help.questions": "Perguntas Frequentes",
+    "footer.footer_tabs.app": "Sobre",
+    "footer.footer_tabs.app.ugrow": "Aplicativo",
+    "footer.footer_tabs.app.institutions": "Instituições",
+    
+    "index.head.title": "Ugrow: Controle suas Finanças Pessoais Gratuitamente",
+
     "index.hero.title": "Bem-vindo ao Ugrow",
     "index.hero.subtitle": "Aplicando uma solução inovadora para auxiliar e gerir suas finanças pessoais",
     "index.hero.link.get_started": "Vamos Começar",
@@ -48,29 +62,30 @@
     
     "contact.title": "Contate-nos",
     "contact.description": "Nos contate para que possamos ajudar você",
+    "contact.head.title": "Contato",
+    "contact.hero.title": "Contate-nos",
+    "contact.hero.subtitle": "Estamos aqui para ajudar — envie uma mensagem ou confira as perguntas frequentes abaixo",
     "contact.error.email": "E-mail inválido, insira um e-mail válido (example@gmail.com)",
-    "contact.error.type": "Tipo de requisição inválido, escolha uma opção válida",
+    "contact.error.type": "Tipo de requisição inválida, escolha uma opção válida",
+    "contact.error.emailjs": "Não foi possível enviar sua mensagem. Tente novamente mais tarde",
     "contact.form.email_label": "E-mail",
     "contact.form.problem_type_select.info": "Tipo de requisição",
     "contact.form.problem_type_select.feedback": "Avaliação/Comentário",
     "contact.form.problem_type_select.app_problem": "Problemas no Aplicativo",
     "contact.form.message_label": "Por que você está abrindo esta requisição?",
     "contact.form.btn": "Enviar a Requisição",
-
-    "footer.footer_special_info.logo_unicesumar": "Logotipo UniCesumar",
-    "footer.footer_special_info.logo_description": "Instituições Envolvidas",
-    "footer.footer_special_info.message": "Agradeço a Deus e aos meus pais por tudo e, aos professores, amigos e instituições pelo auxílio e apoio durante esse projeto. 'Por isso, exortem-se e edifiquem-se uns aos outros, como de fato vocês estão fazendo' - 1 Tessalonicenses 5:11.",
-    "footer.footer_special_info.message_description": "Dedicatória de Guilherme Veiga Pedromilo",
-    "footer.footer_tabs.documentation": "Documentação",
-    "footer.footer_tabs.documentation.academic": "Acadêmica",
-    "footer.footer_tabs.documentation.manual": "Manual",
-    "footer.footer_tabs.help": "Ajuda",
-    "footer.footer_tabs.help.contact": "Contato",
-    "footer.footer_tabs.help.questions": "Perguntas Frequentes",
-    "footer.footer_tabs.app": "Sobre",
-    "footer.footer_tabs.app.ugrow": "Aplicativo",
-    "footer.footer_tabs.app.license": "Licença",
-
+    "contact.faq.title": "Perguntas Frequentes",
+    "contact.faq.subtitle": "Encontre respostas rápidas para as dúvidas mais comuns antes de entrar em contato",
+    "contact.faq.q1.question": "O Ugrow é gratuito?",
+    "contact.faq.q1.answer": "Sim. O Ugrow é um projeto acadêmico gratuito, sem planos pagos ou cobranças ocultas.",
+    "contact.faq.q2.question": "Meus dados financeiros estão seguros?",
+    "contact.faq.q2.answer": "Suas informações financeiras ficam armazenadas no seu próprio dispositivo e nunca são compartilhadas com terceiros.",
+    "contact.faq.q3.question": "Quais plataformas são suportadas?",
+    "contact.faq.q3.answer": "O Ugrow está disponível para Windows, macOS e Linux. Confira a página de Downloads para os instaladores mais recentes.",
+    "contact.faq.q4.question": "Como reporto um bug ou sugiro uma funcionalidade?",
+    "contact.faq.q4.answer": "Utilize o formulário acima e escolha \"Problemas no Aplicativo\" ou \"Avaliação/Comentário\" como tipo de requisição.",
+    "contact.faq.q5.question": "Onde encontro o manual do usuário?",
+    "contact.faq.q5.answer": "O manual completo do usuário está disponível na página de Documentação, em português e inglês.",
 
     "about.head.title": "Sobre o Ugrow",
 
@@ -92,7 +107,6 @@
     "about.institutions.title": "Instituições Envolvidas",
     "about.institutions.description": "A UniCesumar (Universidade Cesumar) e o ICETI (Instituto Cesumar de Tecnologia e Inovação) são as instituições envolvidas neste projeto, contribuindo com seus professores, conteúdos e materiais, suporte técnico e financeiro. Elas trabalham juntas como parceiras oficiais, comprometidas com a educação, a inovação e a comunidade científica.",
     "about.institutiions.image": "Imagem que representa as instituições com uma biblioteca",
-
 
     "documentation.head.title": "Documentação",
     
@@ -126,7 +140,6 @@
     "documentation.article.license.subtitle_documentation.license": "Licença da Documentação",
     "documentation.article.license.description_documentation.license": "A documentação do projeto está licenciada sob a licença Creative Commons Attribution 4.0 International (CC BY 4.0). Essa licença foi escolhida para que as pessoas tenham acesso e possam conhecer e distribuir os conteúdos livremente, entretanto com crédito ao autor original (Guilherme Veiga Pedromilo).",
     "documentation.article.license.license_link": "Licença da Documentação (CC BY 4.0, apenas em EN)",
-
 
     "downloads.head.title": "Downloads",
 

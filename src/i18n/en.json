@@ -1,6 +1,4 @@
 {
-    "index.head.title": "Ugrow: Manage Your Finances With Us for Free",
-
     "header.logo": "Ugrow Logo",
     "header.theme-select.info": "Theme",
     "header.theme-select.light": "Light",
@@ -27,7 +25,21 @@
     "navbar.monochrome_logo": "Monochrome Ugrow Logo",
     "navbar.navbar_figure_caption": "© Ugrow, 2026",
 
-
+    "footer.footer_special_info.logo_unicesumar": "UniCesumar Logo",
+    "footer.footer_special_info.logo_description": "Institutions Involved",
+    "footer.footer_special_info.message": "I thank God and my parents for everything and, teachers, friends and institutions for their support during this project. 'Therefore encourage one another and build each other up, just as in fact you are doing' - 1 Thessalonians 5:11.",
+    "footer.footer_special_info.message_description": "Dedication by Guilherme Veiga Pedromilo",
+    "footer.footer_tabs.documentation": "Documentation",
+    "footer.footer_tabs.documentation.academic": "Academic",
+    "footer.footer_tabs.documentation.manual": "Manual",
+    "footer.footer_tabs.help": "Help",
+    "footer.footer_tabs.help.contact": "Contact",
+    "footer.footer_tabs.help.questions": "Frequently Asked Questions",
+    "footer.footer_tabs.app": "About",
+    "footer.footer_tabs.app.ugrow": "App",
+    "footer.footer_tabs.app.institutions": "Institutions",
+    
+    "index.head.title": "Ugrow: Manage Your Finances With Us for Free",
     "index.hero.title": "Welcome to Ugrow",
     "index.hero.subtitle": "Implementing an innovative solution to help and manage your personal finances",
     "index.hero.link.get_started": "Get Started",
@@ -49,29 +61,30 @@
 
     "contact.title": "Contact Us",
     "contact.description": "Contact us so we can help you!",
+    "contact.head.title": "Contact",
+    "contact.hero.title": "Contact Us",
+    "contact.hero.subtitle": "We're here to help — send us a message or check the FAQ below",
     "contact.error.email": "Invalid email, enter a valid email (example@gmail.com)",
     "contact.error.type": "Invalid request type, choose a valid option",
+    "contact.error.emailjs": "Unable to send your message. Please try again later.",
     "contact.form.email_label": "Email",
     "contact.form.problem_type_select.info": "Request type",
     "contact.form.problem_type_select.feedback": "Feedback",
     "contact.form.problem_type_select.app_problem": "Problems in the App",
     "contact.form.message_label": "Why are you opening this request?",
     "contact.form.btn": "Submit the Request",
-
-    "footer.footer_special_info.logo_unicesumar": "UniCesumar Logo",
-    "footer.footer_special_info.logo_description": "Institutions Involved",
-    "footer.footer_special_info.message": "I thank God and my parents for everything and, teachers, friends and institutions for their support during this project. 'Therefore encourage one another and build each other up, just as in fact you are doing' - 1 Thessalonians 5:11.",
-    "footer.footer_special_info.message_description": "Dedication by Guilherme Veiga Pedromilo",
-    "footer.footer_tabs.documentation": "Documentation",
-    "footer.footer_tabs.documentation.academic": "Academic",
-    "footer.footer_tabs.documentation.manual": "Manual",
-    "footer.footer_tabs.help": "Help",
-    "footer.footer_tabs.help.contact": "Contact",
-    "footer.footer_tabs.help.questions": "Frequently Asked Questions",
-    "footer.footer_tabs.app": "About",
-    "footer.footer_tabs.app.ugrow": "App",
-    "footer.footer_tabs.app.license": "License",
-
+    "contact.faq.title": "Frequently Asked Questions",
+    "contact.faq.subtitle": "Find quick answers to the most common questions before reaching out",
+    "contact.faq.q1.question": "Is Ugrow free to use?",
+    "contact.faq.q1.answer": "Yes. Ugrow is a free academic project, with no paid plans or hidden charges.",
+    "contact.faq.q2.question": "Is my financial data safe?",
+    "contact.faq.q2.answer": "Your financial information stays on your own device and is never shared with third parties.",
+    "contact.faq.q3.question": "Which platforms are supported?",
+    "contact.faq.q3.answer": "Ugrow is available for Windows, macOS and Linux. Check the Downloads page for the latest installers.",
+    "contact.faq.q4.question": "How do I report a bug or suggest a feature?",
+    "contact.faq.q4.answer": "Use the form above and choose \"Problems in the App\" or \"Feedback\" as the request type.",
+    "contact.faq.q5.question": "Where can I find the user manual?",
+    "contact.faq.q5.answer": "The full user manual is available on the Documentation page, in both Portuguese and English.",
 
     "about.head.title": "About Ugrow",
 
@@ -125,7 +138,6 @@
     "documentation.article.license.subtitle_documentation_license": "Documentation License",
     "documentation.article.license.description_documentation_license": "The project's documentation is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. This license was chosen so that people have access to and can learn about and distribute the content freely, while still giving credit to the original author (Guilherme Veiga Pedromilo).",
     "documentation.article.license.license_link": "Documentation License (CC BY 4.0, EN only)",
-
 
     "downloads.head.title": "Downloads",
 

@@ -31,7 +31,7 @@ li {
     justify-content: center;
     flex-direction: column;
     background-position-y: 50%;
-    background-image: linear-gradient(rgba(28, 28, 28, 0.38)), url(../assets/images/content/world_education.svg);
+    background-image: linear-gradient(rgba(28, 28, 28, 0.38)), url(../assets/images/content/goal.svg);
     object-fit: cover;
     width: 100%;
     height: 75vh;
