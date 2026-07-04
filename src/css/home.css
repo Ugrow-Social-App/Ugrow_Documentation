@@ -75,6 +75,8 @@ main {
     box-shadow: 0 4px 14px rgba(183, 122, 122, 0.45);
 }
 
+/* @MEDIA QUERIES - RESPONSIVE LAYOUT */
+/* Responsive Design - @Media Queries */
 @media screen and (max-width: 1024px) {
     .index_hero {
         background-position: center center;
