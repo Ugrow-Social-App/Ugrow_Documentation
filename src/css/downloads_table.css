@@ -1,0 +1,126 @@
+/* DOWNLOADS - VERSION TABLES */
+/* Reaproveita .documentation_section / article do documentation_layout.css,
+   apenas adicionando o estilo das tabelas que substituem os blocos de h2 + p */
+
+.documentation_section article .table_wrapper {
+    width: 100%;
+    overflow-x: auto;
+    margin-left: 0.75rem;
+}
+
+.documentation_section article table.version_table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+.documentation_section article table.version_table caption {
+    caption-side: top;
+    text-align: left;
+    text-indent: 0.75rem;
+    color: var(--blue-color);
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-left: 3px solid var(--blue-color);
+    padding-left: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.documentation_section article table.version_table thead tr th {
+    text-align: left;
+    padding: 0.75rem 1rem;
+    background-color: var(--interactive-elements-color);
+    color: var(--text-color);
+    border-bottom: 2px solid var(--color-border);
+    white-space: nowrap;
+}
+
+.documentation_section article table.version_table tbody tr td {
+    padding: 0.65rem 1rem;
+    border-bottom: 1px solid var(--color-border);
+    color: var(--text-neutral-color);
+}
+
+.documentation_section article table.version_table tbody tr:hover td {
+    background-color: var(--background-neutral-color-links);
+}
+
+.documentation_section article table.version_table tr.year_divider td {
+    background-color: var(--bg-surface-2);
+    color: var(--blue-color);
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+}
+
+.documentation_section article table.version_table td a.table_download_link {
+    display: inline-block;
+    color: var(--blue-color);
+    font-weight: 500;
+    padding: 0.35rem 0.8rem;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    background-color: var(--interactive-elements-color);
+    transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
+    white-space: nowrap;
+}
+
+.documentation_section article table.version_table td a.table_download_link:hover {
+    background-color: var(--interactive-elements-hover);
+    border-color: var(--blue-color);
+    transform: translateY(-2px);
+}
+
+/* @MEDIA QUERIES - RESPONSIVE LAYOUT */
+/* Responsive Design - @Media Queries */
+@media screen and (max-width: 955px) {
+    .documentation_section article table.version_table caption {
+        font-size: 1.15rem;
+    }
+
+    .documentation_section article table.version_table thead tr th,
+    .documentation_section article table.version_table tbody tr td {
+        padding: 0.6rem 0.75rem;
+        font-size: 0.85rem;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .documentation_section article .table_wrapper {
+        margin-left: 0.5rem;
+    }
+
+    .documentation_section article table.version_table caption {
+        font-size: 1rem;
+        padding-left: 0.5rem;
+        text-indent: 0.25rem;
+    }
+
+    .documentation_section article table.version_table thead tr th,
+    .documentation_section article table.version_table tbody tr td {
+        padding: 0.5rem 0.6rem;
+        font-size: 0.8rem;
+    }
+
+    .documentation_section article table.version_table td a.table_download_link {
+        padding: 0.3rem 0.6rem;
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .documentation_section article table.version_table caption {
+        font-size: 0.9rem;
+    }
+
+    .documentation_section article table.version_table thead tr th,
+    .documentation_section article table.version_table tbody tr td {
+        padding: 0.4rem 0.5rem;
+        font-size: 0.65rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .documentation_section article table.version_table thead tr th,
+    .documentation_section article table.version_table tbody tr td {
+        font-size: 0.55rem;
+    }
+}
