@@ -25,22 +25,22 @@ class Footer extends HTMLElement {
                 <li>
                     <h4 data-i18n="footer.footer_tabs.documentation"></h4>
                     <ul>
-                        <li><a href="/" data-i18n="footer.footer_tabs.documentation.academic"></a></li>
-                        <li><a href="/" data-i18n="footer.footer_tabs.documentation.manual"></a></li>
+                        <li><a href="./documentation.html" data-i18n="footer.footer_tabs.documentation.academic"></a></li>
+                        <li><a href="./documentation.html" data-i18n="footer.footer_tabs.documentation.manual"></a></li>
                     </ul>
                 </li>
                 <li>
                     <h4 data-i18n="footer.footer_tabs.help"></h4>
                     <ul>
-                        <li><a href="/" data-i18n="footer.footer_tabs.help.contact"></a></li>
-                        <li><a href="/" data-i18n="footer.footer_tabs.help.questions"></a></li>
+                        <li><a href="" data-i18n="footer.footer_tabs.help.contact"></a></li>
+                        <li><a href="" data-i18n="footer.footer_tabs.help.questions"></a></li>
                     </ul>
                 </li>
                 <li>
                     <h4 data-i18n="footer.footer_tabs.app"></h4>
                     <ul>
                         <li><a href="./about.html" data-i18n="footer.footer_tabs.app.ugrow"></a></li>
-                        <li><a href="./about.html" data-i18n="footer.footer_tabs.app.term"></a></li>
+                        <li><a href="./about.html" data-i18n="footer.footer_tabs.app.license"></a></li>
                     </ul>
                 </li>
             </ul>
