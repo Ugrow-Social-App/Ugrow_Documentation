@@ -1,0 +1,281 @@
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    padding: 1rem 20rem 1rem 1rem;
+    width: 100%;
+    margin: 0;
+    z-index: 1000;
+    position: fixed;
+    gap: 1.5rem;
+    transition: background-color 0.35s ease, backdrop-filter 0.35s ease, box-shadow 0.35s ease;
+    animation-timeline: scroll();
+    animation-range: 0 35vh;
+    animation-name: headerBackground;
+    animation-fill-mode: both;
+}
+
+@keyframes headerBackground {
+    0% {
+        background-color: transparent;
+        backdrop-filter: blur(0px);
+        box-shadow: none;
+    }
+    100% {
+        background-color: color-mix(in srgb, var(--bg-color) 80%, transparent);
+        backdrop-filter: blur(16px) saturate(1.4);
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08), 0 4px 16px rgba(0, 0, 0, 0.06);
+    }
+}
+
+header .logo {
+    min-width: 8rem;
+    width: 12rem;
+}
+
+/* Search Input */
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    margin-left: 22.5%;
+    min-width: 50%;
+    position: relative;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 0.55rem 1rem 0.55rem 3rem;
+    border-radius: 24px;
+    border: 1.5px solid transparent;
+    font-size: 1rem;
+    background-color: var(--interactive-elements-color);
+    color: var(--text-color);
+    outline: none;
+    transition: background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.input-container input::placeholder {
+    color: var(--text-neutral-color);
+}
+
+.input-container input:focus {
+    background-color: var(--bg-surface);
+    border-color: var(--blue-color);
+    box-shadow: 0 0 0 3px rgba(13, 126, 180, 0.15);
+}
+
+.input-container button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.input-container button img {
+    width: 24px;
+    height: 24px;
+    opacity: 0.5;
+    transition: opacity 0.2s ease;
+    filter: brightness(var(--brightness-end));
+}
+
+.input-container:focus-within button img {
+    opacity: 1;
+}
+
+/* SEARCH CONTENT */
+#search-results{
+    position:absolute;
+    top:100%;
+    margin-left: 12.5%;
+    width: 75%;
+    margin-top:.5rem;
+    display:none;
+    flex-direction:column;
+    background:var(--bg-surface);
+    border:1px solid var(--color-border);
+    border-radius:14px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    max-height:calc(100vh - 7rem);
+    box-shadow:0 12px 32px rgba(0,0,0,.15);
+    z-index:9999;
+}
+
+.search-result-card{
+    display:flex;
+    flex-direction:column;
+    gap:.35rem;
+    padding:.85rem 1rem;
+    background:transparent;
+    transition:.2s;
+    border-bottom:1px solid var(--color-border);
+}
+
+.search-result-card:last-child{
+    border-bottom:none;
+}
+
+.search-result-card:hover{
+    background:var(--interactive-elements-color);
+}
+
+.search-result-card strong{
+    color:var(--blue-color);
+    font-size:.95rem;
+    text-transform:capitalize;
+}
+
+.search-result-card span{
+    color:var(--text-neutral-color);
+    font-size:.82rem;
+    line-height:1.4;
+}
+
+.search-result-empty{
+    display:block;
+    padding:1rem;
+    text-align:center;
+    color:var(--text-neutral-color);
+    font-size:.9rem;
+    font-style:italic;
+}
+
+/* Selects */
+#theme-select,
+#language-select {
+    background-color: var(--interactive-elements-color);
+    color: var(--text-color);
+    border: 1.5px solid transparent;
+    border-radius: 10px;
+    padding: 0.45rem 0.6rem 0.45rem 0.85rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+#theme-select:hover,
+#language-select:hover {
+    background-color: var(--interactive-elements-hover);
+    border-color: rgba(13, 126, 180, 0.3);
+}
+
+#theme-select:focus,
+#language-select:focus {
+    border-color: var(--blue-color);
+    box-shadow: 0 0 0 3px rgba(13, 126, 180, 0.15);
+}
+
+/* Burger Menu  */
+header .burguer_menu {
+    width: 2.25rem;
+    height: 2.25rem;
+    background: transparent;
+    border: none;
+    position: fixed;
+    right: 2%;
+    z-index: 1002;
+    cursor: pointer;
+}
+
+header .burguer_menu img {
+    max-width: 100%;
+    transition: filter 0.3s ease;
+    animation-timeline: scroll();
+    animation-range: 0 15vh;
+    animation-name: burguerMenu;
+    animation-fill-mode: both;
+}
+
+/* Disable animation if nav is active */
+header:has(nav.active) .burguer_menu img {
+    animation-name: none;
+    filter: brightness(var(--brightness-end));
+}
+
+@keyframes burguerMenu {
+    0%   { filter: brightness(var(--brightness-start)); }
+    100% { filter: brightness(var(--brightness-end)); }
+}
+
+/* @MEDIA QUERIES - RESPONSIVE LAYOUT */
+/* Responsive Design - @Media Queries */
+@media screen and (max-width: 1280px) {
+    .input-container {
+        margin-left: 6.75%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .input-container {
+        min-width: 65%;
+        margin-left: 3.75%;
+        font-size: 0.75rem;
+    }
+
+    #theme-select,
+    #language-select {
+        padding: 0.6rem 0.6rem 0.6rem 0.5rem;
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 955px) {
+    .input-container {
+        min-width: 500px;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .input-container {
+        min-width: 100%;
+    }    
+}
+
+@media screen and (max-width: 667px) {
+    header {
+        gap: 0.5rem;
+    }
+
+    .input-container {
+        min-width: 245px;
+    }
+
+    .input-container input {
+        padding: 0.55rem 1rem 0.55rem 2.5rem;
+        font-size: 0.75rem
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .input-container, #search-results {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    header .burguer_menu {
+        right: none;
+        left: 79%;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    header .logo {
+        min-width: 5rem;
+    }
+
+    header .burguer_menu {
+        width: 1.5rem;
+        left: 70%;
+    }
+}

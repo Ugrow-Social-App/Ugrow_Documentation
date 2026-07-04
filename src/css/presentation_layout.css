@@ -1,0 +1,113 @@
+/* Common Sections */
+.common_section {
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem 3rem;
+    flex-direction: row;
+    gap: 3rem;
+    background-color: var(--bg-color);
+    transition: background-color 0.35s ease;
+}
+
+/* Alternating background */
+.common_section:nth-child(even) {
+    flex-direction: row-reverse;
+    background-color: var(--bg-surface);
+}
+
+.common_section article {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 45%;
+}
+
+.common_section article h1 {
+    font-size: 3.5rem;
+    background: var(--alternative-accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.common_section article p {
+    font-size: 1.2rem;
+    text-align: justify;
+    color: var(--text-neutral-color);
+    line-height: 1.7;
+}
+
+.common_section figure {
+    flex: 1;
+}
+
+.common_section figure img {
+    border-radius: 12.5%;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+}
+
+.common_section figure img:hover {
+    transform: scale(1.025) translateY(-4px);
+    box-shadow: 0 16px 48px rgba(13, 126, 180, 0.15);
+}
+
+/* Responsive Design - @Media Queries */
+@media screen and (max-width: 1280px) {
+    .common_section article h1 {
+        font-size: 2.75rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .common_section {
+        padding: 1rem 1.5rem;
+        gap: 1.2rem;
+    }
+
+    .common_section article {
+        gap: 1.5rem;
+    }
+
+    .common_section article h1 {
+        font-size: 2rem;
+    }
+
+    .common_section article p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 955px) {
+    .common_section article {
+        flex: 1;
+    }
+}
+
+@media screen and (max-height: 667px) {
+    .common_section {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .common_section article h1 {
+        font-size: 1.5rem;
+    }
+
+    .common_section article p {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    .common_section article {
+        gap: 0.5rem;
+    }
+
+    .common_section article h1 {
+        font-size: 1.2rem;
+    }
+}

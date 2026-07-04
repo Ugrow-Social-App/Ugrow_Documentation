@@ -11,7 +11,7 @@ class Header extends HTMLElement {
                 <button type="submit">
                     <img src="./src/assets/icons/search_icon.svg" alt="Search Icon">
                 </button>
-                <input id="search-input" type="text" placeholder="Search" autoComplete="off">
+                <input id="search-input" type="text" placeholder="Search" autoComplete="off" name="text_by_user">
             </form>
             <!-- Select to change the theme -->
             <select id="theme-select" onchange="setTheme(this.value)" data-cy="theme-toggle">
