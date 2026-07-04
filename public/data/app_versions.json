@@ -1,0 +1,30 @@
+{
+    "current": {
+        "version": "",
+        "releaseDate": "",
+        "platforms": []
+    },
+
+    "history": [],
+
+    "requirements": [
+        {
+            "os": "windows",
+            "label": "Windows",
+            "minimum": "Windows 10 (64-bit), 4GB RAM, 500MB SSD/HD",
+            "recommended": "Windows 11 (64-bit), 8GB RAM, 1GB SSD/HD"
+        },
+        {
+            "os": "macos",
+            "label": "macOS",
+            "minimum": "macOS 11 Big Sur+, 4GB RAM, 500MB SSD/HD",
+            "recommended": "macOS 13+, 8GB RAM, 1GB SSD/HD"
+        },
+        {
+            "os": "linux",
+            "label": "Linux",
+            "minimum": "Ubuntu 20.04+, 4GB RAM, 500MB SSD/HD",
+            "recommended": "Ubuntu 22.04+, 8GB RAM, 1GB SSD/HD"
+        }
+    ]
+}

@@ -9,7 +9,7 @@ class Navbar extends HTMLElement {
                     <h4 data-i18n="navbar.navbar_tabs.app"></h4>
                     <ul>
                         <li>
-                            <a href="" data-i18n="navbar.navbar_tabs.app.download"></a>
+                            <a href="./downloads.html" data-i18n="navbar.navbar_tabs.app.download"></a>
                         </li>
                     </ul>
                 </li>

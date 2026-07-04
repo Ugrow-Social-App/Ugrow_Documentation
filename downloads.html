@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="downloads.head.title">Downloads</title>
+    <link rel="icon" href="./public/favicon/favicon.svg" type="image/svg+xml">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/root.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/documentation_layout.css">
+    <link rel="stylesheet" href="./src/css/downloads_table.css">
+</head>
+<body>
+    <!-- Header Component -->
+    <header-component></header-component>
+    <main data-cy="downloads_main-content">
+        <!-- Downloads Hero of website -->
+        <section class="common_hero">
+            <h1 data-i18n="downloads.hero.title"></h1>
+            <p data-i18n="downloads.hero.subtitle"></p>
+        </section>
+        <div class="content">
+            <aside data-cy="aside" class="common_aside">
+                <ul>
+                    <li>
+                        <a href="#current_release_title" data-i18n="downloads.article.current.title"></a>
+                        <ul class="common_aside_sublist">
+                            <li><a href="#current_release_quick" data-i18n="downloads.article.current.subtitle_quick"></a></li>
+                            <li><a href="#current_release_details" data-i18n="downloads.article.current.subtitle_details"></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#version_history_title" data-i18n="downloads.article.history.title"></a>
+                        <ul class="common_aside_sublist">
+                            <li><a href="#history_2026" data-i18n="downloads.article.history.subtitle_2026"></a></li>
+                            <li><a href="#history_2025" data-i18n="downloads.article.history.subtitle_2025"></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#requirements_title" data-i18n="downloads.article.requirements.title"></a>
+                        <ul class="common_aside_sublist">
+                            <li><a href="#requirements_minimum" data-i18n="downloads.article.requirements.subtitle_minimum"></a></li>
+                            <li><a href="#requirements_recommended" data-i18n="downloads.article.requirements.subtitle_recommended"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </aside>
+            <!-- Downloads Section, brings the app versions available for download -->
+            <section id="downloads" class="documentation_section">
+                <article id="current_release_article" class="documentation_article">
+                    <h1 id="current_release_title" data-i18n="downloads.article.current.title"></h1>
+                    <ol id="current_release_quick" data-quick-downloads>
+                        <li>
+                            <a href="#" target="_blank" rel="noopener noreferrer"
+                               data-download-os="windows"
+                               data-i18n="downloads.article.current.quick_windows"></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" rel="noopener noreferrer"
+                               data-download-os="macos"
+                               data-i18n="downloads.article.current.quick_macos"></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" rel="noopener noreferrer"
+                               data-download-os="linux"
+                               data-i18n="downloads.article.current.quick_linux"></a>
+                        </li>
+                    </ol>
+                    <div class="table_wrapper">
+                        <table id="current_release_details" class="version_table" data-table="current">
+                            <caption data-i18n="downloads.article.current.subtitle_details"></caption>
+                            <thead>
+                                <tr>
+                                    <th data-i18n="downloads.table.header_platform"></th>
+                                    <th data-i18n="downloads.table.header_version"></th>
+                                    <th data-i18n="downloads.table.header_date"></th>
+                                    <th data-i18n="downloads.table.header_size"></th>
+                                    <th data-i18n="downloads.table.header_action"></th>
+                                </tr>
+                            </thead>
+                            <tbody id="current_release_table_body" data-cy="current_release_table_body">
+                                <!-- Populated by downloads.js from app_versions.json -->
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
+                <article id="version_history_article" class="documentation_article">
+                    <h1 id="version_history_title" data-i18n="downloads.article.history.title"></h1>
+                    <div class="table_wrapper">
+                        <table class="version_table" data-table="history">
+                            <caption data-i18n="downloads.article.history.subtitle_intro"></caption>
+                            <thead>
+                                <tr>
+                                    <th data-i18n="downloads.table.header_version"></th>
+                                    <th data-i18n="downloads.table.header_date"></th>
+                                    <th data-i18n="downloads.table.header_notes"></th>
+                                    <th data-i18n="downloads.table.header_action"></th>
+                                </tr>
+                            </thead>
+                            <!-- Data from app_versions.json in public/data/ -->
+                            <tbody id="version_history_table_body" data-cy="version_history_table_body">
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
+                <article id="requirements_article" class="documentation_article">
+                    <h1 id="requirements_title" data-i18n="downloads.article.requirements.title"></h1>
+                    <div class="table_wrapper">
+                        <table class="version_table" data-table="requirements">
+                            <caption data-i18n="downloads.article.requirements.subtitle_intro"></caption>
+                            <thead>
+                                <tr>
+                                    <th data-i18n="downloads.table.header_os"></th>
+                                    <th id="requirements_minimum" data-i18n="downloads.table.header_minimum"></th>
+                                    <th id="requirements_recommended" data-i18n="downloads.table.header_recommended"></th>
+                                </tr>
+                            </thead>
+                            <tbody id="requirements_table_body" data-cy="requirements_table_body">
+                                <!-- Populated by downloads.js from app_versions.json -->
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer-component></footer-component>
+    <!-- Components -->
+    <script src="./src/components/header.js"></script>
+    <script src="./src/components/navbar.js"></script>
+    <script src="./src/components/footer.js"></script>
+    <!-- Statements -->
+    <!-- Scripts to change the language -->
+    <script src="./src/js/i18n.js"></script>
+    <!-- Scripts to change the theme -->
+    <script src="./src/js/theme.js"></script>
+    <!-- Scripts to navbar -->
+    <script src="./src/js/navbar.js"></script>
+    <!-- Search Content -->
+    <script src="./src/js/search.js"></script>
+    <!-- Responsive Layout -->
+    <script src="./src/js/move_elements.js"></script>
+    <!-- Downloads table (consumes app_versions.json) -->
+    <script src="./src/js/downloads.js"></script>
+</body>
+</html>
