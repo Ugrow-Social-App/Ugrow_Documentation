@@ -1,6 +1,5 @@
 /* CONTACT PAGE LAYOUT */
-/* Reuses .content / .documentation_section / article from documentation_layout.css.
-   Since this page has no aside, the section is centered instead of split 80/20 */
+/* Reuses .content, .documentation_section and article from documentation_layout.css. */
 
 #contact_page_content {
     width: 100%;
@@ -9,8 +8,6 @@
     padding: 3rem 2rem 5rem 2rem;
 }
 
-/* The short intro paragraph reads better left-aligned, without the
-   documentation-style justified text and indentation */
 #contact > p,
 #faq_article > p {
     text-align: left;
