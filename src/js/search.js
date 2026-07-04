@@ -65,8 +65,7 @@ const search_content = async (data) => {
         const excludedPrefixes = [
             "header",
             "navbar",
-            "footer",
-            "contact"
+            "footer"
         ];
 
         const filtered_matches = matches.filter(
