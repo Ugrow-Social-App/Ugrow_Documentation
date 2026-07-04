@@ -9,8 +9,10 @@ const moveHtmlElements = (element, to_element) => {
     if (element && to_element) to_element.appendChild(element);
 }
 
+// Verify body size on HTML
 const verify_body_size = () => {
-    if (window.innerWidth <= 955) {        
+    if (window.innerWidth <= 955) {
+        // If the father element is Header, move elements to inside of navbar        
         if (language_select.parentElement.nodeName === "HEADER") {
             moveHtmlElements(language_select, navbar);
             moveHtmlElements(theme_select, navbar);
@@ -28,6 +30,7 @@ const verify_body_size = () => {
                 }
             });
         }
+        // But if the body width is bigger that 955px, so move to elements to inside of header
     } else if (window.innerWidth > 955 && language_select.parentElement.nodeName === "NAV") {
         moveHtmlElements(language_select, header);
         moveHtmlElements(theme_select, header);

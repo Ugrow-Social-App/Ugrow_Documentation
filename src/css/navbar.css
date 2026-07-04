@@ -1,0 +1,182 @@
+nav {
+    display: none;
+}
+
+nav.active {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: var(--bg-surface);
+    width: 18vw;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    padding: 1rem 2rem 3rem 1rem;
+    box-shadow: -4px 0 24px rgba(0, 0, 0, 0.12);
+    border-left: 1px solid color-mix(in srgb, var(--blue-color) 20%, transparent);
+    z-index: 1001;
+
+    /* Slide-in animation */
+    animation: navSlideIn 0.32s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes navSlideIn {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+nav.active h3 {
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 3rem;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+nav.active .navbar_tabs {
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+}
+
+nav.active .navbar_tabs .navbar_tabs_sections {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    margin-bottom: 1.5rem;
+}
+
+nav.active .navbar_tabs .navbar_tabs_sections h4 {
+    padding: 0 0 0 8px;
+    color: var(--text-neutral-color);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+nav.active .navbar_tabs .navbar_tabs_sections ul li a {
+    display: block;
+    padding: 4px 8px;
+    background-color: transparent;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    transition: background-color 0.2s ease, color 0.2s ease, padding-left 0.2s ease;
+}
+
+nav.active .navbar_tabs .navbar_tabs_sections ul li a:hover {
+    background-color: var(--background-neutral-color-links);
+    color: var(--blue-color);
+    padding-left: 14px;
+}
+
+nav.active figure {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-top: 1px solid color-mix(in srgb, var(--text-neutral-color) 30%, transparent);
+}
+
+nav.active figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: brightness(var(--brightness-end));
+}
+
+nav.active figure figcaption {
+    font-size: 0.75rem;
+    color: var(--text-neutral-color);
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+/* @MEDIA QUERIES - RESPONSIVE LAYOUT */
+/* Responsive Design - @Media Queries */
+@media screen and (max-width: 1280px) {
+    nav.active {
+        width: 22.5vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    nav.active {
+        width: 33.3vw;
+    }
+}
+
+@media screen and (max-width: 955px) {
+    nav.active {
+        gap: 0.2rem;
+        width: 50vw;
+    }
+
+    nav.active h3 {
+        margin-bottom: 0.5rem;
+    }
+
+    nav.active figure {
+        padding: 0.5rem 1rem
+    }
+}
+
+@media screen and (max-height: 769px) {
+    nav.active figure {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 667px) {
+    nav.active .navbar_tabs {
+        flex: 1 1 auto;
+        overflow-y: auto;
+    }
+}
+
+@media screen and (max-width: 478px) {
+    nav.active  {
+        width: 75vw;
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    nav.active {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    nav.active {
+        width: 95%;
+    }
+
+    nav.active h3 {
+        margin-top: 13px;
+        font-size: 0.9rem;
+    }
+
+    #theme-select,
+    #language-select {
+        max-width: 75%;
+    }
+
+    nav.active figure {
+        padding: 2rem 3.5rem 2rem 0;
+    }
+}
