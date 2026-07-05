@@ -2,6 +2,16 @@
 describe("Contact Page Layout", () => {
 
     beforeEach(() => {
+        // email.config.js isn't committed to the repo (it holds the EmailJS key),
+        // so email.js throws "EMAIL_CONFIG is not defined" when it's missing.
+        // That's unrelated to layout, so we ignore just this one error here
+        // instead of letting it fail every test in this suite.
+        cy.on("uncaught:exception", (err) => {
+            if (err.message.includes("EMAIL_CONFIG is not defined")) {
+                return false;
+            }
+        });
+
         cy.visit("/contact.html");
     });
 
