@@ -24,13 +24,13 @@
 ## Architectural Drivers (EN)
 
 ### Introduction
-Architectural drivers represent the primary forces that shape and constrain the software architecture of a system. These drivers emerge from business goals, user needs, technical constraints, and institutional or academic requirements. In the Ugrow Social App project, architectural drivers were identified based on [field research](../field-research//survey-analysis.md), the academic extension context (PIBEX), and the intended social impact of the application.
+Architectural drivers represent the primary forces that shape and constrain the software architecture of a system. These drivers emerge from business goals, user needs, technical constraints, and institutional or academic requirements. In the Ugrow Social App project, architectural drivers were identified based on [research](..research/research.md), the academic extension context (PIBEX), and the intended social impact of the application.
 
 These drivers guide architectural decisions and ensure that the resulting system aligns with real user needs, technical feasibility, and the project’s educational and social objectives.
 
 ### Group of Drivers
 - #### Business & Social
-    The Ugrow Social App is designed to promote financial inclusion and basic financial education. Field research indicates that many users struggle to organize their personal finances and lack access to simple, accessible tools. The project prioritizes social impact over commercial goals, emphasizing accessibility, ease of use, and educational value.
+    The Ugrow Social App is designed to promote financial inclusion and basic financial education. research indicates that many users struggle to organize their personal finances and lack access to simple, accessible tools. The project prioritizes social impact over commercial goals, emphasizing accessibility, ease of use, and educational value.
 
 - #### User's Drivers
     The target users present low financial literacy and low tolerance for complex systems. Many respondents reported abandoning existing financial applications due to excessive features and confusing interfaces. Users also expressed a preference for autonomy, wishing to use the application without mandatory account creation or constant internet access.
@@ -61,14 +61,14 @@ These drivers guide architectural decisions and ensure that the resulting system
 ## Drivers Arquitetônicos (PT-BR)
 
 ### Introdução
-Os drivers arquiteturais representam as principais forças que moldam e restringem a arquitetura de *software* de um sistema. Esses *drivers* emergem de objetivos sociais e institucionais, necessidades dos usuários, restrições técnicas e exigências acadêmas. No projeto *Ugrow Social App*, os *drivers* arquiteturais foram identificados com base na [pesquisa de campo](../field-research/survey-analysis.md), no contexto de extensão universitária (PIBEX) e no impacto social esperado da aplicação.
+Os drivers arquiteturais representam as principais forças que moldam e restringem a arquitetura de *software* de um sistema. Esses *drivers* emergem de objetivos sociais e institucionais, necessidades dos usuários, restrições técnicas e exigências acadêmas. No projeto *Ugrow Social App*, os *drivers* arquiteturais foram identificados com base na [pesquisa de ](..research/research.md), no contexto de extensão universitária (PIBEX) e no impacto social esperado da aplicação.
 
 Esses drivers orientam as decisões arquiteturais e garantem que o sistema resultante esteja alinhado com as necessidades reais dos usuários, a viabilidade técnica e os objetivos educacionais e sociais do projeto.
 
 ### Grupos de *Drivers*
 
 - #### Negócios & Sociais
-    O *Ugrow Social App* foi concebido para promover a inclusão financeira e a educação financeira básica. A pesquisa de campo indica que muitos usuários enfrentam dificuldades para organizar suas finanças pessoais e carecem de ferramentas simples e acessíveis. O projeto prioriza o impacto social em detrimento de objetivos comerciais, enfatizando acessibilidade, facilidade de uso e valor educacional.
+    O *Ugrow Social App* foi concebido para promover a inclusão financeira e a educação financeira básica. A pesquisa de  indica que muitos usuários enfrentam dificuldades para organizar suas finanças pessoais e carecem de ferramentas simples e acessíveis. O projeto prioriza o impacto social em detrimento de objetivos comerciais, enfatizando acessibilidade, facilidade de uso e valor educacional.
 
 - #### *Drivers* dos Usuários
     Os usuários-alvo apresentam baixo nível de educação financeira e baixa tolerância a sistemas complexos. Muitos respondentes relataram ter abandonado aplicativos financeiros existentes devido ao excesso de funcionalidades e interfaces confusas. Os usuários também demonstraram preferência por autonomia, desejando utilizar a aplicação sem a obrigatoriedade de criação de conta ou dependência constante de conexão com a internet.

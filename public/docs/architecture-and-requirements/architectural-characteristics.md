@@ -34,7 +34,7 @@
 
 Architectural characteristics represent the quality attributes that guide and constrain the system’s architectural decisions. Unlike functional requirements, these characteristics directly influence the software structure, the adopted patterns, and the necessary trade-offs throughout development.
 
-In the Ugrow Social App project, the architectural characteristics were defined based on the identified [architectural drivers](./architectural-drivers.md), derived from [field research](../field-research/survey-analysis.md), the [academic extension context (PIBEX)](../project-overview/project-context.md), and the system’s social impact objectives.
+In the Ugrow Social App project, the architectural characteristics were defined based on the identified [architectural drivers](./architectural-drivers.md), derived from [research](../research/research.md), the [academic extension context (PIBEX)](../project-overview/project-context.md), and the system’s social impact objectives.
 
 ### Selected Characteristics
 
@@ -114,7 +114,7 @@ Notes
 
 As características arquiteturais representam os atributos de qualidade que orientam e restringem as decisões arquiteturais do sistema. Diferentemente de requisitos funcionais, essas características influenciam diretamente a estrutura do *software*, os padrões adotados e os *trade-offs* necessários ao longo do desenvolvimento.
 
-No projeto Ugrow Social App, as características arquiteturais foram definidas com base nos [*drivers* arquiteturais](./architectural-drivers.md) identificados a partir da [pesquisa de campo](../field-research/survey-analysis.md), do [contexto acadêmico de extensão universitária (PIBEX)](../project-overview/project-context.md) e dos objetivos de impacto social do sistema.
+No projeto Ugrow Social App, as características arquiteturais foram definidas com base nos [*drivers* arquiteturais](./architectural-drivers.md) identificados a partir da [pesquisa](../research/research.md), do [contexto acadêmico de extensão universitária (PIBEX)](../project-overview/project-context.md) e dos objetivos de impacto social do sistema.
 
 ### Características Escolhidas
 
